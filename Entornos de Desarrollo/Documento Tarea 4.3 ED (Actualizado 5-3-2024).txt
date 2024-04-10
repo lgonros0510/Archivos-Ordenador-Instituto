@@ -1,0 +1,187 @@
+-->> ANÁLISIS DEL PROYECTO "APUESTAS" <<--
+
+====================================================================================================================
+
+-> Para llevar a cabo el análisis del problema y obtener las clases y atributos necesarios, primero vamos a extraer los
+   sustantivos relevantes de la descripción del problema:
+
++  Gestor de sorteos
++  Sorteo
++  Participante
++  Apuesta
++  Saldo
++  Tarjeta bancaria
++  Formulario de solicitud
++  Registro
++  Datos personales
++  Nick
++  Password
++  Mensaje de aviso
++  Combina aleatoria
++  Histórico de sorteos
++  Estadísticas
++  PDF
++  CSV
++  IP
++  Conexión
++  Bloqueo
+
+--------------------------------------------------------------------------------------------------------------------
+
+-> A partir de estos sustantivos, podemos seleccionar las clases y objetos del sistema:
+
++  GestorDeSorteos
++  Sorteo
++  Participante
++  Apuesta
++  Saldo
++  TarjetaBancaria
++  FormularioSolicitud
++  Registro
++  DatosPersonales
++  MensajeAviso
++  CombinaAleatoria
++  HistóricoSorteos
++  Estadísticas
++  PDF
++  CSV
++  IP
++  Conexión
++  Bloqueo
+
+--------------------------------------------------------------------------------------------------------------------
+
+-> Luego, identificamos los atributos de cada objeto:
+
++  "GestorDeSorteos": nombre, descripción, fecha, conexiónIP, historicoConexiones.
++  "Sorteo": nombre, descripción, fecha, númerosGanadores.
++  "Participante": nombre, NIF, teléfono, email, edad, númeroTarjeta, nick, password, saldoDisponible, estadoBloqueo.
++  "Apuesta": participante, sorteo, cantidadApostada, númerosApostados.
++  "Saldo": cantidad.
++  "TarjetaBancaria": número.
++  "FormularioSolicitud": datosFormulario.
++  "Registro": datosRegistro.
++  "DatosPersonales": nombre, NIF, teléfono, email, edad.
++  "MensajeAviso": contenido.
++  "CombinaAleatoria": combinación.
++  "HistóricoSorteos": registros.
++  "Estadísticas": datosEstadísticos.
++  "PDF": contenidoPDF.
++  "CSV": contenidoCSV.
++  "IP": dirección.
++  "Conexión": fecha, hora.
++  "Bloqueo": contadorIntentos.
+
+--------------------------------------------------------------------------------------------------------------------
+
+-> Después, definimos los métodos relevantes para cada clase:
+
++  "GestorDeSorteos":
+
+·  darAltaSorteo()
+·  generarNumerosAleatorios()
+
++  "Sorteo":
+
+·  notificarGanadores()
+
+
++  "Participante":
+
+·  registrarse()
+·  realizarApuesta()
+·  solicitarRetiroSaldo()
+
++  "Apuesta":
+
+·  Esta clase ya tiene los métodos getNumerosApostados() y toString()
+
++  "Saldo":
+
+·  retirarSaldo()
+
+
++  "TarjetaBancaria":
+
+·  validar()
+
++  "FormularioSolicitud":
+
+·  enviar()
+
++  "Registro":
+
+·  guardarRegistro()
+
++  "DatosPersonales":
+
+·  Esta clase ya utiliza los métodos getter y setter
+
++  "MensajeAviso":
+
+·  Esta clase ya utiliza los métodos getter y setter
+
++  "CombinaAleatoria":
+
+·  generarCombinacion()
+
++  "HistóricoSorteos":
+
+·  generarEstadisticas()
+
++  "Estadísticas":
+
+·  generarPDF()
+·  generarCSV()
+
++  "PDF":
+
+·  Esta clase ya utiliza los métodos getter y setter
+
++  "CSV":
+
+·  Esta clase ya utiliza los métodos getter y setter
+
++  "IP":
+
+·  Esta clase ya utiliza los métodos getter y setter
+
++  "Conexión":
+
+·  Esta clase ya utiliza los métodos getter y setter
+
++  "Bloqueo":
+
+·  incrementarIntento()
+·  resetearContador()
+
+--------------------------------------------------------------------------------------------------------------------
+
+-> Luego, definimos las relaciones entre las clases:
+
++  "GestorDeSorteos" realiza "Sorteo"
++  "Participante" realiza "Apuesta"
++  "Participante" tiene "Saldo"
++  "Participante" tiene "TarjetaBancaria"
++  "Participante" utiliza "FormularioSolicitud"
++  "Participante" registra "Registro"
++  "Participante" tiene "DatosPersonales"
++  "Participante" recibe "MensajeAviso"
++  "Apuesta" relaciona "Sorteo"
++  "Saldo" pertenece a "Participante"
++  "TarjetaBancaria" pertenece a "Participante"
++  "FormularioSolicitud" pertenece a "Participante"
++  "Registro" pertenece a "Participante"
++  "DatosPersonales" pertenece a "Participante"
++  "MensajeAviso" pertenece a "Participante"
++  "Sorteo" tiene "HistóricoSorteos"
++  "HistóricoSorteos" genera "Estadísticas"
++  "Estadísticas" genera "PDF" y "CSV"
++  "Conexión" tiene "IP"
++  "Participante" tiene "Bloqueo"
+
+--------------------------------------------------------------------------------------------------------------------
+
+-> Después de este análisis, podemos proceder a ir agregando getters, setters y constructores donde sea necesario, así como ir
+   realizando el primer refinamiento del diseño si es necesario ajustar las relaciones o atributos de las clases. También se puede
+   documentar el diseño utilizando "Javadoc" para proporcionar una descripción detallada de cada clase y método.

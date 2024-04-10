@@ -1,0 +1,93 @@
+--->>> EJERCICIOS DE LOS TEMAS 8 Y 9 DE "FOL" <<<---
+
+================================================================================================================
+
+---------------------------------------------------Página 147---------------------------------------------------
+
+2º.) Indica si es un accidente de trabajo desde el punto de vista de la Seguridad Social y por qué =
+
+-> Las situaciones "a)" y "f)" son accidentes laborales según la Seguridad Social debido a que cumplen
+   los requisitos legales para que sean considerados como tal: existen lesiones, existe una relación
+   laboral y existe una relación de causalidad entre el trabajo y la lesión.
+
+-> Las situaciones "b)", "c)" y "h)" son accidentes in itinere debido a que se producen en el camino de
+   ida o de vuelta del trabajo, además de ser accidentes laborales aprovados por la ley.
+
+-> La situación "d)" es una tarea distinta, la cual se produce en una tarea distinta a la habitual ejercitada
+   por el trabajador, además de ser un accidente laboral aprovado por la ley.
+
+-> Las situaciones "e)" y "g)" son las consecuencias de otro accidente de trabajo, siendo la depresión a raíz del acoso
+   laboral y el resbalón a causa de la inundación, además de ser accidentes laborales aprovados por la ley.
+
+-> La situación "i)" NO es un accidente de trabajo debido a que resulta una imprudencia temeraria intencionada por
+   el propio trabajador.
+
+---------------------------------------------------Página 151---------------------------------------------------
+
+7º.a) Indica cuál es la medida de prevención, cuál es la medida de protección colectiva y cuál es la medida de protección
+      individual =
+
+-> Entregar mascarillas a los trabajadores es una medida de protección individual.
+
+-> Utilizar aspiradores de polvo en los lugares de trabajo es una medida de protección colectiva.
+
+-> Sustituir el cloro por el oxígeno, que es menos perjudicial, es una medida de prevención.
+
+7º.b) Indica el orden de utilización de estas 3 medidas =
+
+-> El orden sería "c) -> b) -> a)"; es decir, primero la medida de prevención, luego la medida de protección colectiva y, al
+   final, la medida de protección individual.
+
+
+8º.) Clasifica las siguientes medidas según sean medidas de prevención o de protección, además de indicar sobre qué elemento
+     están actuando =
+
+-> Las medidas "b)", "c)" y "e)" son medidas de prevención.
+
+-> Las medidas "a)" y "f)" son medidas de protección colectiva.
+
+-> La medida "d)" es una medida de protección individual.
+
+---------------------------------------------------Página 153---------------------------------------------------
+
+10º.) Indica un ejemplo de "EPI" que proteja a un trabajador de los siguientes casos =
+
+-> Para protegerse el tronco contra los rayos X, puede equiparse un mandil de protección contra los rayos X.
+
+-> Para protegerse los oídos en una carpintería metálica, puede equiparse unos tapones para los oídos.
+
+-> Para protegerse todo el cuerpo de una caída en una obra, puede equiparse un arnés.
+
+-> Para protegerse los pies de la electricidad, puede equiparse de un calzado aislante.
+
+-> Para  protegerse las vías respiratorias de la exposición a los gases, puede equiparse una mascarilla filtrante de gases y
+   vapores.
+
+---------------------------------------------------Página 185---------------------------------------------------
+
+1º.) ¿Qué condiciones de los lugares de trabajo incumple esta oficina?
+
+-> En esta oficina las puertas no tienen la anchura ideal (75 cm, y no 80 cm) y no hay luces de emergencia en caso de un apagón.
+
+4º.) Indica qué medidas de prevención y/o protección se debían de haber aplicado para evitar ese accidente de trabajo =
+
+-> Se debió de marcar la maquinaria con un marcado CE, debía de incluir un manual de instrucciones y se debía de haber equipado la
+   maquinaria con resguardos o con doble mando para que no pudiese acercarse tanto a la maquinaria.
+
+9º.) Relaciona cada factor de un incendio con su componente correspondiente al "tetraedro del fuego" =
+
+-> Los factores "a)" y "c)" son combustbles.
+
+-> Los factores "d)" y "g)" son comburentes.
+
+-> Los factores "b)" y "f)" son el foco de calor.
+
+-> El factor "e)" es la reacción en cadena.
+
+================================================================================================================
+
+--->>> EJERCICIOS REALIZADOS POR LUCÍA GONZÁLEZ ROSAS <<<---
+
+--->>> 1º. DE DAW <<<---
+
+--->>> 10 DE MARZO DEL 2024 <<<---

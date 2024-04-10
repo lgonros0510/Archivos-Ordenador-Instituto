@@ -1,0 +1,176 @@
+package Apuestas;
+
+class Apuesta {
+    
+    private Participante participante;
+    private Sorteo sorteo;
+    private int cantidadApostada;
+    private int[] numerosApostados;
+
+    public Apuesta(Participante participante, Sorteo sorteo, int cantidadApostada, int[] numerosApostados) {
+        
+        this.participante = participante;
+        this.sorteo = sorteo;
+        this.cantidadApostada = cantidadApostada;
+        this.numerosApostados = numerosApostados;
+        
+    }
+
+    public int[] getNumerosApostados() {
+        
+        return numerosApostados;
+        
+    }
+
+    @Override
+    public String toString() {
+        
+        return "Apuesta {" + "Participante = " + participante + " || Sorteo = " + sorteo + " || Cantidad apostada = " + cantidadApostada + '}';
+        
+    }
+}
+
+package Apuestas;
+
+public class ApuestaPocoYGanaMucho {
+    public static void main(String[] args) {
+
+        Sorteo sorteo = new Sorteo("1º. sorteo", "Un sorteo de tres cifras", "2024-02-21");
+
+        Participante participante = new Participante("Lucía", "12345678A", "684127296", "lgonros0510@g.educaand.es", 25, "1234 5678 9012 3456", "Lucía777", "contraseña");
+
+        int[] numerosApostados = {1, 2, 3};
+        Apuesta apuesta = new Apuesta(participante, sorteo, 100, numerosApostados);
+
+        System.out.println("La apuesta realizada es de ");
+        System.out.println(apuesta);
+
+        sorteo.generarNumerosAleatorios();
+
+        if (sorteo.comprobarGanador(apuesta)) {
+            System.out.println("¡Felicidades, has ganado!");
+            
+        } else {
+            System.out.println("Lo siento, no has ganado esta vez.");
+            
+        }
+    }
+}
+
+package Apuestas;
+
+class Participante {
+    
+    private String nombre;
+    private String nif;
+    private String telefono;
+    private String email;
+    private int edad;
+    private String numeroTarjeta;
+    private String nick;
+    private String password;
+
+    public Participante(String nombre, String nif, String telefono, String email, int edad, String numeroTarjeta, String nick, String password) {
+        
+        this.nombre = nombre;
+        this.nif = nif;
+        this.telefono = telefono;
+        this.email = email;
+        this.edad = edad;
+        this.numeroTarjeta = numeroTarjeta;
+        this.nick = nick;
+        this.password = password;
+        
+    }
+}
+
+package Apuestas;
+
+import java.util.Random;
+
+class Sorteo {
+    
+    private String nombre;
+    private String descripcion;
+    private String fecha;
+    private int[] numeros;
+
+    public Sorteo(String nombre, String descripcion, String fecha) {
+        
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+        this.fecha = fecha;
+        this.numeros = new int[3];
+        
+    }
+
+    public void generarNumerosAleatorios() {
+        
+        Random rand = new Random();
+        
+        for (int i = 0; i < 3; i++) {
+            numeros[i] = rand.nextInt(10);
+            
+        }
+    }
+
+    public boolean comprobarGanador(Apuesta apuesta) {
+        
+        int[] numerosApostados = apuesta.getNumerosApostados();
+        
+        for (int i = 0; i < 3; i++) {
+            if (numerosApostados[i] != numeros[i]) {
+                return false;
+                
+            }
+        }
+        
+        return true;
+    }
+}
+
+------------------------------------------------------------------------------------------
+
+-> Modifica los archivos.java para que hagan lo que pide el siguiente enunciado:
+
+Ada formó parte del equipo de pruebas del programa de apuestas y decidió llevarlo al mundo online.
+
+El esquema básico de funcionamiento de la página web apuestapocoyganamucho.com es el siguiente:
+
+    El gestor de sorteos (Persona fisica con ese rol) es el encargado de dar de alta un sorteo. Cada sorteo consta de números aleatorios que se deben de acertar. Existen sorteos desde una, hasta 3 cifras. El rango de los números siempre va de 0 a 9. Por ejemplo un participante puede elegir apostar 100€ al sorteo de 3 cifras, siendo la cifra elegida el 233. 
+    En la apuesta de una cifra la ganancia es 5 veces la apuesta. En la de dos cifras es de 20 veces y en la de tres cifras de 50.
+    Se puede realizar una búsqueda por nombre de sorteo . Cada sorteo tiene un nombre, una descripción y una fecha de sorteo.
+    En caso de ganar, el saldo es aumentado. Para retirar el saldo a su tarjeta bancaria se ha de solicitar mediante el formulario de solicitud para ello.
+
+A continuación, se detallan los principales aspectos relacionados con una apuesta:
+
+Realizar una Apuesta =
+
+Si es la primera vez, el participante debe registrarse antes, proporcionando sus datos personales (nombre, nif, teléfono (que se valida por código enviado al terminal vía SMS), dirección email correcta (que se valida mediante envío de enlace de validación, edad y numero de tarjeta bancaria.).También indicará un Nick y un Password.  Los pagos se realizan en prepago, teniendo cada usuario un saldo que luego podrá ser retirado con el formulario de solicitud de crédito. (se debe rellenar y enviar un formulario de autorización) . El usuario debe aceptar la política de privacidad. El sistema comprueba la corrección de los datos de identidad del usuario, por ejemplo de la dirección email (se envía un mensaje de confirmación) o de la tarjeta de crédito. Los usuarios deben tener más de 18 años. 
+
+Para realizar una apuesta =
+
+    Elegir sorteo.
+    Elegir la cantidad a apostar que no puede ser nunca menor que el disponible
+    Elegir los números o solicitar que el sistema genere una combinación aleatoria.
+    Realizar apuesta aceptando el mensaje de aviso de que una apuesta no se puede deshacer.
+
+El sistema almacena un histórico de los sorteos y permite visualizar estadísticas de las cifras mas aparecidas, así como los mayores premios dados. Además permite descargar en PDF y en CSV dichas estadísticas
+
+El sistema genera el día y la hora del sorteo los números aleatoriamente del sorteo. Además, avisará a los agraciados por sms y por correo de su premio conseguido
+
+Dar de alta un sorteo =
+
+El gestor de sorteos es el actor encargado de dar de alta de manera manual los distintos sorteos. Él decide día, hora, y numero de cifras de sorteo. Con estos datos el sistema publica el sorteo en el "Listado de sorteos" que es público para cualquier visitante.
+
+El sistema registrará tanto la ip desde donde conecta el gestor de sorteos como el día y la hora de la conexión y lo guardará en el histórico de conexiones. 
+
+*A ultima hora indicaron, dado el peligro que suponía, que a las tres introducciones de un password o palabra de paso errónea tanto del gestor como de un usuario su cuenta fuera bloqueada. La solución a este bloqueo esta implementada en una aplicación de terceros por lo que no hay que controlarla
+
+
+-> Me está dando el siguiente error en la clase "ApuestaPocoYGanaMucho()":
+
+method calcularPremio in class Apuesta cannot be applied to given types;
+required: int
+found: no arguments
+reason: actual and formal argument lists differ in length

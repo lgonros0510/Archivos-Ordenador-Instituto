@@ -1,0 +1,409 @@
+--->>> TEMA 9 "FOL": LOS FACTORES DE RIESGO Y SU PREVENCIÓN <<<---
+
+====================================================================================================
+====================================================================================================
+
+1º.) Los factores de riesgo laboral =
+
+-> En el tema 8, se ha visto de forma general los factores de riesgo laboral que podían aparecer en el trabajo. En este tema 
+   se profundizará más a fondo en cada uno de ellos y en las medidas de prevención y protección necesarias para hacerles frente.
+
+====================================================================================================
+
+2º.) Los factores de riesgo derivados de las condiciones de seguridad =
+
+-> Los factores de riesgo derivados de las condiciones de seguridad se pueden localizar en los lugares de trabajo, en la maquinaria
+   y las herramientas, en el riesgo eléctrico y en el riesgo de incendio.
+
+----------------------------------------------------------------------------------------------------
+
+2.1º.) Los lugares de trabajo =
+
+-> Las zonas de trabajo no pueden suponer un riesgo para la seguridad y la salud de los trabajadores, por lo que, en este aspecto,
+   existe una normativa que regula las condiciones mínimas que deben cumplir los lugares de trabajo. Hay que tener en cuenta que,
+   por la zona de trabajo, se considera no solamente el lugar donde se realizan las tareas, sino también las vías de paso, los
+   locales de descanso, los servicios higiénicos y los locales de primeros auxilios.
+
+-> La normativa es muy amplia, por lo que destacamos las siguientes características:
+
++  Las estructuras y los suelos: Las estructuras deben de ser sólidas y tener una suficiente resistencia para soportar las cargas.
+   Los suelos deben ser estables, no resbaladizos y sin pendientes ni rampas excesivas.
+
++  Los espacios de trabajo: Debe haber un mínimo de 3 metros de altura (2,5 metros en locales comerciales y despachos) y 2 metros
+   cuadrados libres por cada trabajador, así como 10 metros cúbicos de volumen libre por cada uno.
+
++  Las barandillas: La altura mínima es de 90 cm junto a una protección inferior para impedir el paso.
+
++  Las escaleras y vías de circulación: Las escaleras deben de tener una altura mínima de 1 metro. Las puertas deben de tener una
+   anchura mínima de 80 cm y los pasillos deben de ser de 1 metro.
+
++  Las salidas de evacuación: Se debe de disponer de salidas de evacuación despejadas, señalizadas, con iluminación de seguridad y
+   con puertas que se puedan abrir hacia afuera.
+
+-> Los daños que se pueden producir en los lugares de trabajo son los resbalones, las caídas de personas y de objetos y los golpes
+   con objetos.
+
+-> Las medidas de prevención y/o protección que se pueden realizar son el cumplimiento de la normativa sobre las condiciones mínimas,
+   la señalización de la seguridad de los lugares de trabajo, mantener el orden y la limpieza y la protección con redes de seguridad
+   y arneses anticaídas.
+
+----------------------------------------------------------------------------------------------------
+
+2.2º.) La maquinaria y las herramientas =
+
+-> La maquinaria es uno de los principales factores de riesgo en los accidentes de trabajo, especialmente por la gravedad de los daños
+   que ocasionan:
+
++  Los daños que se pueden producir por culpa de la maquinaria son los golpes, los cortes, los atrapamientos, las amputaciones, las
+   quemaduras, la proyección de partículas y gases, el contacto eléctrico, el incendio y la sordera.
+
++  Las medidas de prevención y/o protección que se pueden realizar son las medidas de prevención en el diseño de la maquinaria para que
+   no suponga un riesgo en sí misma, el marcado "CE" para que se señale que cumple con la normativa de seguridad, usar resguardos para
+   no entrar en contacto con la maquinaria, usar pantallas para evitar la proyección de partículas, los dispositivos de seguridad como
+   las células fotoeléctricas o el doble mando y el uso de "EPIs" adecuados para la maquinaria.
+
+-> Las herramientas también originan accidentes de trabajo y, si bien no suelen ser tan graves como en el caso de la maquinaria, sí son
+   accidentes leves que ocurren con gran frecuencia:
+   
++  Los riesgos del uso de las herramientas provienen del uso inadecuado de éstas para la tarea que hay que realizar, del abandono de las
+   herramientas en lugares peligrosos, del transporte inadecuado de las herramientas y de la falta de mantenimiento y de revisión.
+
++  Los daños que se pueden producir en el uso de las herramientas son los golpes, las caídas, la proyección de partículas y el contacto
+   eléctrico.
+
++  Las medidas de prevención y/o protección que se pueden realizar son el uso de las herramientas solo para el fin al que están destinadas,
+   la formación en el uso de las herramientas, el mantenimiento y la revisión, el transporte adecuado y el orden y la limpieza.
+
+----------------------------------------------------------------------------------------------------
+
+2.3º.) El riesgo eléctrico =
+
+-> Es la posibilidad de la circulación de la corriente eléctrica por el cuerpo humano, pasando éste a formar parte del circuito. Esto puede
+   ser debido a un contacto directo (cuando se tocan partes activas de la red que están en tensión), un contacto indirecto (cuando se toca
+   un dispositivo que normalmente no conduce la electricidad, pero que por algún fallo sí la conduce) o un contacto de alta tensión (cuando
+   se produce el acercamiento a los dispositivos de más de 1000 voltios. No llega a tocarse el dispositivo en sí pero, al sobrepasar la zona
+   de seguridad que rodea al dispositivo, se produce una descarga a través del aire).
+
+-> Los daños dependen de varios factores, siendo el más importante el nivel de intensidad (medido en miliamperios o "mA"). Otros factores
+   importantes a considerar son el tiempo que dura el contacto y la trayectoria que sigue la electricidad, ya sea por el corazón, el tórax
+   o el cerebro:
+
++  De 1 a 3 mA, se producen cosquilleos por todo el cuerpo.
+
++  De 5 a 10 mA, se producen contracciones musculares, calambres o incluso la interrupción del contacto voluntariamente.
+
++  A partir de 10 mA, se produce la tetanización; es decir, un agarrotamiento en el cuerpo que impide separarse del contacto voluntariamente.
+
++  A partir de 25 mA, se produce la parada cardio-respiratoria si llega a atravesar el tórax o el cerebro.
+
++  De 60 a 75 mA, se produce la fibrilación ventricular si llega a pasar por el corazón. Si ocurre, éste se volverá anárquico y no bombeará la
+   sangre de forma regular, provocando la muerte.
+
++  De 1 a 5 A, se produce el paro cardíaco reversible y quemaduras graves externas e internas. Estas quemaduras pueden bloquear el funcionamiento
+   del riñón, provocando la muerte.
+
+-> Las medidas de prevención y/o protección que se pueden realizar son alejar las partes activas de la instalación para impedir el contacto con
+   ellas, interponer obstáculos como tabiques o rejas, recubrir las partes activas con aislamientos, usar "tomas de tierra" (son unos cables que
+   conducen la electricidad hasta la tierra donde se colocan), usar interruptores diferenciales para cortar la corriente en caso de una derivación
+   de la electricidad, separar los circuitos por transformadores, separar las partes activas, utilizar masas como aislamiento, informar a través de
+   la señalización, el uso de "EPIs" aislantes, el uso de herramientas y elementos aislantes y verificar la ausencia de la tensión y señalizar que
+   se están realizando trabajos eléctricos antes de comenzar a operar.
+
+----------------------------------------------------------------------------------------------------
+
+2.4º.) El riesgo de incendio =
+
+-> Un incendio es un fuego no controlado que destruye algo que no está destinado a arder. Para que se produzca el fuego y se mantenga en el tiempo
+   es necesario que aparezcan 4 elementos llamados "el tetraedro del fuego":
+
++  El combustible: Es la materia que arde, la cual puede ser sólida, líquida o gaseosa.
+
++  El comburente: Es el oxígeno que se encuentra en el aire.
+
++  La energía de activación o foco de calor: Es la energía mínima que se necesita para que se inicie el fuego.
+
++  La reacción en cadena: Una vez que se inicia el fuego, éste se mantiene en el tiempo. Esto se produce porque, del calor inicial del fuego, una
+   parte se disipa en el aire, pero hay otra que se reutiliza como nueva energía de activación y evita que el fuego se extinga.
+
+-> Existen 4 tipos de fuegos en función del tipo de combustible que arda:
+
++  Clase A - Los sólidos: Son combustibles que deja brasas, como la madera, el cartón o los tejidos.
+
++  Clase B - Los líquidos: Son sustancias como la gasolina o los disolventes, aunque también pueden ser sólidos que, al arder, se convierten en
+   líquidos, como la grasa o la cera.
+
++  Clase C - Los gaseosos: Son gases inflamables como el butano o el propano.
+
++  Clase D - Los metales: Son metales combustibles como el sodio o el potasio.
+
+-> Los daños que se pueden producir en un incendio son la muerte por asfixia e intoxicación por humos y gases, las quemaduras internas por
+   la inhalación de humos, las quemaduras externas por las llamas y los atrapamientos y avalanchas ocasionadas por el pánico.
+
+-> Las medidas de prevención y/o protección que se pueden realizar son el diseño de edificios utilizando materiales difícilmente inflamables,
+   la protección de las instalaciones eléctricas, la colocación de puertas cortafuegos, el adecuado almacenamiento de las sustancias y productos
+   inflamables, la prevención de la electricidad estática en ambientes inflamables, la instalación de sistemas de detección y alarma automáticos
+   que detecten los humos o la temperatura y la isntalación de sistemas de extintor fijos, así como de extintores portátiles e informar al
+   personal en su uso.
+
+====================================================================================================
+
+3º.) Los factores de riesgo derivados de las condiciones medioambientales =
+
+-> Los factores de riesgo derivados de las condiciones medioambientales se pueden localizar en los agentes físicos, los agentes químicos y los
+   agentes biológicos.
+
+----------------------------------------------------------------------------------------------------
+
+3.1º.) Los agentes físicos =
+
+a) El ruido =
+
+-> El ruido es un sonido no deseado y molesto que se mide en decibelios o "dB". El oído humano puede oír entre 0 y 120 dB. Una conversación normal
+   está alrededor de los 55 dB mientras que, a partir de los 80 dB, empieza a ser perjudicial para la salud. Existen 3 tipos de ruidos:
+
++  El ruido continuo: No cambia de frecuencia. Se suele medir con sonómetros.
+
++  El ruido discontinuo: Se produce de forma intermitente en intervalos de tiempo. Se suele medir con dosímetros.
+
++  El ruido de pico o de impacto: Se produce cuando varía de forma brusca en tiempos anteriores a 1 segundo. Se suele medir con analizadores de
+   impactos en dB.
+
+-> Las empresas tienen la obligación de evaluar los niveles de ruido para conocer la necesidad de tomar medidas de prevención y protección contra el
+   ruido. La normativa señala que, a partir de los 80 dB de media al día o a la semana, las empresas deben tomar medidas técnicas y organizativas
+   para reducir lo máximo posible el nivel de ruido. Además, el límite nunca debe de superarse es de 87 dB de media y 140 dB de pico.
+
+-> Los daños que se pueden producir con el ruido son la sordera profesional irreversible, la fatiga auditiva que desaparece con el descanso, la
+   irritabilidad, los dolores de cabeza, el estrés, la taquicardia, el insomnio y los problemas digestivos.
+
+-> Las medidas de prevención y/o protección que se pueden realizar son la sustitución de la maquinaria y de otras instalaciones ruidosas por otras
+   que lo sean menos, el mantenimiento y la revisión de las instalaciones ruidosas, la disminución del tiempo de exposición de los tarbajadores, la
+   protección colectiva mediante la insonorización de los locales y los talleres o el encerramiento de la maquinaria y las instalaciones que ocasionen
+   mucho ruido, la evaluación del nivel de ruido cada 3 años (si supera los 80 dB de media) o al año (si supera los 85 dB de pico), los reconocimientos
+   médicos con audiometrías cada 5 años (si supera los 80 dB de media) o cada 3 años (si supera los 85 dB de pico), la señalización de las zonas ruidosas,
+   la información y formación de los trabajadores y, a partir de los 80 dB, entregar a los trabajadores "EPIs" de forma voluntaria, así como volverse de
+   uso obligatorio si superan los 85 dB.
+
+b) Las vibraciones =
+
+-> Se dice que un cuerpo vibra cuando se mueve alternativamente de un lado a otro respecto a su posición de equilibrio. El trabajador, al entrar En
+   contacto con el elemento que vibra, sufre una serie de daños para su salud. Este contacto puede ser de transmisión mano-brazo (se produce al utilizar
+   herramientas o maquinaria de trabajo como pulidoras, martillos neumáticos, apisonadoras manuales, motosierras, etc) o de transmisión de cuerpo entero
+   (se produce al conducir vehículos como camiones, tractores, autobuses, etc).
+
+-> Los daños que se pueden producir por las vibraciones son el síndrome del dedo blanco o Raynaud, la artrosis de codo, las lesiones de muñena, los
+   dolores de espalda, las lumbargias, las hernias, los mareos y los vómitos.
+
+-> Las medidas de prevención y/o protección que se pueden realizar son el diseño de la maquinaria y las herramientas con amortiguadores y elementos
+   antivibratorios, la utilización de asientos antivibratorios en los vehículos, el adecuado mantenimiento y revisión, la realización de pausas y descansos,
+   las rotaciones del personal con el objetivo de reducir el tiempo de exposición, la información y formación de los trabajadores y el uso de "EPIs"
+   antivibratorias.
+
+c) Las radiaciones =
+
+-> Las radiaciones son energías electromagnéticas que se propagan en el espacio y con las que vivimos frecuentemente, como los rayos X, los rayos ultravioleta,
+   los rayos de infrarrojos, los rayos de microondas, los rayos láser, los radares, la radioactividad o las radiofrecuencias de los móviles.
+
+-> Podemos clasificar las radiaciones en:
+
++  Las radiaciones ionizantes: Son las sustancias radioactivas y los rayos X, los rayos alfa, los rayos beta y los rayos gamma. Se suelen encontrar en las
+   actividades sanitarias, en los laboratorios y en las centrales nucleares.
+
++  Las radiaciones no ionizantes: Son los rayos ultravioleta, los rayos de infrarrojos, los rayos de microondas, los radares, las radiofrecuencas de los móviles
+   y los láseres. Los rayos ultravioleta e infrarrojos los encontramos principalmente en los trabajos de soldadura.
+
+-> Los daños que se pueden producir por las radiaciones son las quemaduras y los daños en la piel, la conjutivitis, las cataratas, el cáncer profesional y diversos
+   efectos sobre la reproducción.
+
+-> Las medidas de prevención y/o protección que se pueden realizar son la señalización obligatoria de la zona de riesgo y del uso obligatorio de los "EPIs", la
+   vigilancia periódica de la salud para evaluar el nivel de radiación recibida, la limitación del tiempo de exposición a las radiaciones, la obligación del uso
+   de "EPIs" adecuados y la información y formación de los trabajadores.
+
+e) La iluminación =
+
+-> La iluminación puede llegar a provocar daños en los trabajadores, ya que muchos accidentes de trabajo ocurren cuando hay luz insuficiente. Asimismo, puede
+   provocar fatiga visual y cansancio.
+
+-> Las medidas de prevención y/o protección que se pueden realizar son la utilización de luz natural siempre que sea posible, la disposición de una iluminación
+   general y otra focalizada en los lugares en los que hay que ejecutar tareas, la atención a las zonas peligrosas, el esquive a los contrastes de luz y los
+   deslumbramientos y el cumplimiento de la normativa sobre la cantidad mínima de "lux" en los lugares de trabajo (puede ir de 100 lux a 1000 lux).
+
+----------------------------------------------------------------------------------------------------
+
+3.2º.) Los agentes químicos =
+
+-> Los contaminantes químicos en el ambiente de trabajo pueden presentarse en forma de sólidos (como los polvos en suspensión en el ire, las fibras y los humos),
+   en forma de líquidos (como los aerosoles y las nieblas) o en forma de gases y vapores (como el monóxido de carbono).
+
+-> Estos contaminantes suelen entrar en el cuerpo humano a través de la vía respiratoria, aunque también es posible que entren por la vía digestiva o por el contacto
+   con la piel y/o las heridas.
+
+-> Los efectos o daños que pueden provocar en el organismo humano se clasifican de la siguiente manera:
+
++  Los agentes químicos irritantes: Irritan la piel, como el amoniaco o el cloro.
+
++  Los agentes químicos corrosivos: Destruyen los tejidos, como los ácidos.
+
++  Los agentes químicos asfixiantes: Impiden el suministro de oxígeno, como el butano o el monóxido de carbono.
+
++  Los agentes químicos anestésicos: Producen somnoliencia y pérdida del conocimiento, lo que puede ocasionar un accidente laboral, como los disolventes.
+
++  Los agentes químicos sensibilizantes: Producen reacciones alérgicas en la piel o en las vías respiratorias, como el formaldehído o el polvo de madera.
+
++  Los agentes químicos cancerígenos y mutágenos: Provocan cáncer a largo plazo, así como alteraciones genéticas y hereditarias, como el plomo, el benceno y el cadmio.
+
++  Los agentes químicos neumoconióticos: Se almacenan en los pulmones provocando problemas musculares e incluso la muerte, como el amianto o el plomo.
+
++  Los agentes químicos sistémicos: Actúan en el sistema humano afectando a varios órganos a la vez, como el mercurio o el magnesio.
+
+-> Las medidas de prevención y/o protección que se pueden realizar son la higiene industrial, la actuación sobre el foco del riesgo sustituyendo el contaminante por
+   otro producto menos peligroso o reduciendo lo máximo posible su uso, la realización de revisiones periódicas y la recogida de muestras para evaluar el riesgo, la
+   ventilación general o localizada a través de campanas extractoras que eliminen el contaminante, el aislamiento o alejamiento de los trabajadores al foco
+   contaminante, la reducción del tiempo de exposición al contaminante, la información y formación de los trabajadores, el uso de "EPIs" adecuados al contaminante y
+   el etiquetado del producto contaminante donde se informe de los daños que éste puede ocasionar.
+
+----------------------------------------------------------------------------------------------------
+
+3.3º.) Los agentes biológicos =
+
+-> Los agentes biológicos son microorganismos que penetran en el cuerpo humano provocando enfermedades infeccionsas y parasitarias, como los virus, las bacterias,
+   los protozoos, los hongos y los gusanos.
+
+-> El contagio puede ser a través del contacto con otras personas, con animales o con material contaminado y las vías de entrada son la vía respiratoria, la vía
+   digestiva, la piel y/o las heridas.
+
+-> El riesgo biológico afecta principalmente al personal de los laboratorios, al personal sanitario, a los trabajadores de la agricultura y de la ganadería, a los
+   veterinarios y a las empresas que se dedican a la manipulación de alimentos cárnicos.
+
+-> Según el riesgo de infección, los agentes biológicos se clasifican en:
+
++  El Grupo 1: Es poco probable que causen una enfermedad.
+
++  El Grupo 2: Pueden causar una enfermedad y suponer un peligro, pero es poco probable. Existen tratamientos para remediarlos. Algunos ejemplos de infecciones del
+   Grupo 2 son el virus de la gripe o la legionela.
+
++  El Grupo 3: Pueden provocar una enfermedad grave con rpobabilidad de propagación. Existen tratamientos para remediarlos. Algunos ejemplos de infecciones del Grupo
+   3 son la tuberculosis, la hepatitis B o la brucelosis.
+
++  El Grupo 4: Pueden provocar una enfermedad grave con una importante probabilidad de propagación. No existen tratamientos eficaces para remediarlos. Algunos ejemplos
+   de infecciones del Grupo 4 son el virus del ébola o la viruela.
+
+-> Las medidas de prevención y/o protección que se pueden realizar son la medicina preventiva, las adecuadas condiciones higiénicas en los lugares de trabajo, la
+   desinfecció y esterilización de los utensilios de trabajo, la disposición de 10 minutos para el cambio de ropa y la higiene personal de los trabajadores, la procuración
+   de no mezclar la ropa de trabajo y la personal, el lavado y descontaminación de la ropa de trabajo en la propia empresa, la prohibición de la comida y bebida en los
+   lugares de trabajo, el uso de "EPIs" adecuados para el riesgo biológico y la infromación y formación de los trabajadores.
+
+====================================================================================================
+
+4º.) Los factores derivados de la carga de trabajo =
+
+-> La carga de trabajo es el conjunto de exigencias físicas y mentales que requiere un puesto de trabajo. Las exigencias físicas dan lugar a la carga física del trabajo,
+   mientras que las exigencias mentales dan lugar a la carga mental del trabajo.
+
+a) La carga física =
+
+-> La carga física aparece cuando deben realizarse tareas que requieren de esfuerzo muscular. Los 3 factores que inciden en la carga física son los esfuerzos físicos A
+   lo largo de la jornada, las posturas incorrectas y la manipulación de cargas superiores a los 3 kg.
+
+-> Los daños que se pueden producir por la carga física son la tendinitis, las lumbalgias, las hernias, los dolores cervicales, el síndrome del túnel carpiano, la
+   epicondilitis o codo de tenista y la fatiga física o cansancio.
+
+-> Las medidas de prevención y/o protección que se pueden realizar son la correción de las posturas, la formación en la manipulación de cargas, la sustitución de la
+   manipulación manual de cargas por equipos mecánicos, la selección del personal adecuado y entrenado para cargas u esfuerzos excesivos, la rotación de tareas para
+   evitar la carga excesiva a lo largo de la jornada y la realización de estiramientos y ejercicios de relajación.
+
+b) La carga mental =
+
+-> La carga mental hace referencia a las exigencias mentales del trabajo, que pueden derivar en la fatiga mental debido a la cantidad de información que hay que manejar
+   y al tiempo del que se dispone para tomar decisiones y realizar ese trabajo.
+
+-> Los ejemplos más usuales de trabajadores con carga mental son los controladores aéreos, que deben de manejar mucha información y tomar decisiones correctas en poco
+   tiempo; o los operadores de las compañías de telefonía móvil, por el volumen de llamadas y de infromación que manejan diariamente.
+
+-> Los daños que se pueden producir por la carga mental son el cansancio y el agotamiento, los dolores de cabeza, el estrés, la irritabilidad y el imsomnio.
+
+-> Las medidas de prevención y/o protección que se pueden realizar son la realización de pausas en el trabajo, la adaptación de la cantidad de información a a capacidad
+   del trabajador, la procuración de evitar de los ruidos en el lugar de trabajo y el cumplimiento con la normativa sobre las pantallas de visualización de datos.
+
+c) Las pantallas de visualización de datos =
+
+-> El uso de ordenadores ha provocado la aparición de nuevos riesgos laborales para la mayoría de los trabajadores. Estos riesgos están relacionados con la carga del
+   trabajo, originando principalmente los siguientes daños:
+
++  La fatiga visual: Es la sensación de la vista cansada, la pesadez en los párpados y los ojos y el picor y escozor en los ojos. Estos síntomas son reversibles tran un
+   periodo corto de descanso.
+
++  La fatiga muscular: Se produce por las posturas mantenidas e incorrectas en el asiento, acompañado de dolores de espalda, calambres y hormigueo en las piernas, de
+   dolores de cuello, etc.
+
++  El exceso de carga de trabajo frente al ordenador: Puede provocar dolores de cabeza, imsomnio, irritabilidad, ansiedad y/o estrés.
+
+-> Las medidas de prevención y/o protección que se pueden realizar son la situación de las pantallas por encima del nivel de los ojos, la procuración de evitar los
+   reflejos y el polvo en la pantalla, la procuración de no situar nunca el ordenador delante de la ventana o de espaldas a ésta, la recomendación de una iluminación
+   de alrededor de 300 lux, la procuración de evitar el parpadeo de los caracteres en la pantalla, la procuración de que la altura del teclado y la mesa debe de ser 60
+   a 75 cm por encima del suelo, el permiso de apoyo de los antebrazis en la mesa, la procuración de un ratón con reposamuñecas, la procuración de una superficie mate
+   para la mesa y el teclado, el mantenimiento de una postura recta, la utilización de un portadocumentos o atril para depositar los documentos que debemos copiar o
+   leer, la procuración de un asiento de trabajo que esté provisto de 5 pies con ruedas y sea regulable en altura y reclinable hacia atrás, la eliminación de los ruidos
+   molestos del lugar de trabajo, el mantenimiento de una temperatura entre los 19 y los 23 en el lugar de trabajo, la procuración de evitar corrientes de aire, la
+   realización de pautas de descanso de 10 minutos cada 2 horas, la alternación con otras tareas cuando se realicen trabajos monótonos de grabación de datos o en trabajos
+   que requieran manejar mucha carga de información, la vigilancia de la salud a través de reconocimientos médicos periódicos y la información y formación de los
+   trabajadores.
+
+====================================================================================================
+
+5º.) Los factores derivados de la organización del trabajo =
+
+-> La organización del trabajo es una fuente de riesgos laborales llamados también "riesgos psicosociales", que hoy en día producen daños tan cotodianos en los trabajadores
+   como la insatisfacción laboral, el estrés o el acoso laboral.
+
+-> Los factores de riesgo psicosocial pueden provenir tanto de las características de la empresa como de las características personales del trabajador. Ambas interactúan
+   entre sí, por lo que, si bien tienen una gran importancia las condiciones relativas a cómo está organizado el trabajo, el papel del trabajador a la hora de interpretar
+   estas condiciones también es fundamental para que aparezca un riesgo para su salud.
+
+-> Las medidas de prevención y/o protección que se pueden realizar son la procuración de evitar las jornadas prolongadas, la programación de pausas y descansos, el
+   conocimiento de los turnos con la antelación suficiente y el disfrute del descanso en dichos turnos, la rotación de los puestos de trabajo, el permiso de la autonomía
+   en la toma de decisiones, el ajuste de la selección del personal a las características del puesto, la procuración de evitar las ambigüedades en el contrato de trabajo,
+   la disposición a un sistema salarial justo y adecuado al trabajo y al rendimiento del trabajador, la inclusión de los estilos participativos de liderazgo, la fomentación
+   de un clima laboral positivo, la información y formación de los tarbajadores y la selección adecuada del personal.
+
+-> Las conductas que se pueden incluir en el acoso laboral o "mobbing" son la obligación a realizar tareas contra su conciencia, el juzgado de su desempeño de una manera
+   ofensiva, el cambio de ubicación junto con la separación de sus compañeros, la no asignación de tareas o la asignación de tareas sin sentido, la asignación de tareas
+   desagradables o por debajo de su capacidad, las críticas a la vida privada de una persona, el terror telefónico, el hacer parecer estúpida a una persona, el dar a
+   entender que una persona tiene problemas psicológicos, la imitación de gestos, voces, etc. de una persona, el mofarse de la vida privada de una persona, el mofarse de
+   las discapacidades de una persona, la prohibición a los compañeros que hablen con la víctima, el no dirigir la palabra a una persona, el tratamiento de una persona
+   como si no existiera, el rehusar la comunicación a través de miradas o gestos, gritar, insultar, las amenazas verbales, las amenazas de violencia física, las ofertas
+   sexuales, la violencia sexual, los ataques a las creencias políticas y religiosas, el mmofarse de la nacionalidad de la víctima, la difusión de rumores y el hablar mal
+   de una persona a sus espaldas.
+
+====================================================================================================
+
+6º.) La evaluación de riesgos laborales =
+
+-> Uno de los principios fundamentales de la actuación preventiva es que cuando no se pueden evitar los riesgos se deben evaluar qué riesgos son los que existen. Este
+   principio es importante, ya que no significa convivir porque sí con los riesgos y solamente basta con medirlos, sino que se deben evitar en su origen y, si no es
+   posible, entonces se pasará a evaluarlos.
+
+-> Se debe de realizar dicha evaluación por cada puesto de trabajo al inicio de la actividad y de forma periódica siempre que se producen cambios o existen daños objetivo
+   insuficiencia de las medidas.
+
+-> El método de evaluación de riesgos del INSST consiste en valorar dos características de cada riesgo laboral, los cuales son la probabilidad de que ocurra el accidente Y
+   las consecuencias en caso de que ocurra uno. De su combinación nos sale una clasificación del nivel de riesgo:
+
++  Si la probabilidad de un accidente es baja, el nivel de consecuencias puede ser trivial, tolerable o moderado.
+
++  Si la probabilidad de un accidente es media, el nivel de consecuencias puede ser tolerable, moderado o importante.
+
++  Si la probabilidad de un accidente es alta, el nivel de consecuencias puede ser moderado, importante o intolerable.
+
+-> El instituto establece una prioridad de actuación según el nivel de riesgo:
+
++  El nivel de riesgo trivial: No requiere de una acción específica.
+
++  El nivel de riesgo tolerable: No se necesita mejorar la acción preventiva, además de que se pueden considerar mejoras que no supongan una carga económica importante. dichos
+   nivel de riesgo requiere de comprobaciones médicas.
+
++  El nivel de riesgo moderado: Se deben de hacer esfuerzos para reducir el riesgo, invirtiendo en las medidas precisas, las cuales deben implantarse en un periodo de tiempo
+   determinado.
+
++  El nivel de riesgo importante: No debe comnzarse el trabajo hasta que se haya reducido el riesgo. Puede que se precisen de recursos considerables para controlar el riesgo.
+
++  El nivel de riesgo intolerable: No se debe de continuar ni comenzar el trabajo hasta que se reduzca el riesgo.

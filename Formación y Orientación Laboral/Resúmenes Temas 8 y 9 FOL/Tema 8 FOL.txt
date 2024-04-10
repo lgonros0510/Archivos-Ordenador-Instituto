@@ -1,0 +1,286 @@
+--->>> TEMA 8 "FOL": LA PREVENCIÓN DE RIESGOS Y SUS CONCEPTOS BÁSICOS <<<---
+
+====================================================================================================
+====================================================================================================
+
+1º.) El concepto de la salud =
+
+-> La Organización Mundial de la Salud u "OMS" define "Salud" como el estado de
+   bienestar físico, mental y social completo y no simplemente la ausencia de daño
+   o enfermedad.
+
+-> De esta definición destacamos tres aspectos:
+
++  La salud laboral: Se compone del bienestar físico (la ausencia de daño físico o
+   enfermedad), del bienestar mental (el equilibrio emocional y la identificación del
+   trabajador con su tarea) y del bienestar social (las relaciones con los demás, el
+   reconocimiento social y las expectativas del futuro que su trabajo le ofrece).
+
++  El riesgo laboral: Es la posibilidad de que un trabajador sufra algún daño en la salud
+   derivado de las condiciones de trabajo.
+
++  La condición de trabajo: Es cualquier característica de la misma que pueda influir en que
+   aparezcan riesgos para la seguridad y la salud del trabajador, quedando incluidas las
+   características de los locales, instalaciones, equipos, productos y otros útiles que existan
+   en el centro de trabajo; los agentes físicos, químicos y biológicos presentes en el ambiente
+   de trabajo; los procedimientos para utilizar los agentes anteriores y otras características del
+   trabajo que influyan en los riesgos del trabajador, como la propia organización del trabajo.
+
+-> La prevención de los riesgos laborales es el conjunto de medidas que se toman para evitar o
+   disminuir los riesgos laborales en la empresa y lograr mejores condiciones de trabajo para los
+   trabajadores. Para ello, se precisa de una legislación en materia de prevención.
+
+====================================================================================================
+
+2º.) Los factores de riesgo laboral =
+
+-> ¿Cuáles son las condiciones inadecuadas del trabajo que pueden provocar que aparezcan riesgos
+   laborales? Según los especialistas en prevención, estas condiciones o factores de riesgo pueden
+   ser clasificadas en 4 grupos, los cuales provocan los siguientes daños:
+
++  Las condiciones de seguridad: Sus factores de riesgo son los lugares de trabajo y los equipos de
+   trabajo, provocando accidentes de trabajo.
+
++  Las condiciones medioambientales: Sus factores de riesgo son los agentes físicos, químicos y
+   biológicos, provocando enfermedades profesionales.
+
++  Las condiciones ergonómicas: Sus factores de riesgo son la carga física y mental del trabajo,
+   provocando tanto fatiga física como mental.
+
++  Las condiciones psicosociales: Sus factores de riesgo son la organización del trabajo y las
+   características profesionales, provocando la insatisfacción laboral, el estrés, el "mobbing"
+   y el "bournout".
+
+====================================================================================================
+
+3º.) Los daños a la salud del trabajador =
+
+-> La Ley de Prevención de Riesgos Laborales señala que los daños laborales son las enfermedades,
+   patologías o lesiones que puede sufrir el trabajador en el ejercicio de sus funciones.
+
+-> Podemos clasificar los daños a la salud de los trabajadores en patologías específicas (son
+   consecuencia directa del trabajo que se realiza, como el accidente de trabajo y la enfermedad
+   profesional) y en patologías inespecíficas (pueden ser consecuencia del trabajo, pero también
+   de otras circunstancias del trabajador como la insatisfacción laboral o la fatiga).
+
+----------------------------------------------------------------------------------------------------
+
+3.1º.) El accidente de trabajo =
+
+a) Los requisitos legales =
+
+-> La Ley General de Seguridad Social define como "accidente de trabajo" toda lesión corporal que el
+   trabajador sufra por ocasión o por consecuencia del trabajo que ejecute por cuenta ajena. Por lo
+   tanto, se piden 3 requisitos para que sea un accidente de trabajo: que exista una lesión física o
+   mental, que haya una relación laboral y que haya una relación de causalidad entre el trabajo y la
+   lesión provocada.
+
+b) Los supuestos asimilados por la ley =
+
+-> Además, se añaden como accidentes de trabajo otras situaiones que pueden provocar confusión sobre si
+   lo son o no y que la ley, al incluirlas, deja claro que sí son accidentes de trabajo:
+
++  El accidente in itinere: Es el que sufre el trabajador al ir o al volver del lugar de trabajo. Las
+   sentencias judiciales han matizado los requisitos que deben darse para que se considere accidente de
+   trabajo, como que debe ocurrir en el camino de ida o vuelta al domicilio habitual o laboral, que no
+   deben de producirse interrupciones entre el fin del trabajo y el accidente, que el recorrido realizado
+   por el trabajador sea el habitual y que el medio utilizado por el trabajador sea un medio adecuado para
+   ir al trabajo.
+
++  El cargo sindical: Se causa dicho accidente por el desempeño de las funciones de carácter sindical, así
+   como los ocurridos al ir o al volver de ejercitar dichas funciones. Por ejemplo, un delegado de prevención
+   que resulta atropellado cuando acude al sindicato en el tiempo reservado para ello.
+
++  Las tareas distintas: Se trata de los accidentes ocurridos realizando tareas que, aun siendo distintas a las
+   de su categoría profesional, ejecute el trabajador ya sea por orden del empresario o por iniciativa propia
+   para la buena marcha de la empresa. Por ejemplo, un administrativo que se lesiona al mover unas cajas en el
+   almacén porque estaba ayudando.
+
++  Los actos de salvamento: Se trata de los accidentes ocurridos en actos de salvamento y otros de naturaleza
+   análoga cuando tengan conexión con el trabajo. Por ejemplo, un trabajador que sufre lesiones al salvar a un
+   compañero de un incendio en la oficina.
+
++  Las enfermedades del trabajo: Se trata de las enfermedades que no puedan ser consideradas enfermedades
+   profesionales, pero que las contraiga el trabajador con motivo de la realización de su trabajo, siempre que se
+   pruebe por sentencia judicial que la enfermedad surgió por causa exclusiva de dicho trabajo. Por ejemplo, el
+   estrés laboral.
+
++  Las consecuencias del accidente: Son las consecuencias del accidente y las complicaciones derivadas del accidente
+   mismo (por ejemplo, un trabajador que, a raíz de un accidente, debe ser operado y contraiga un virus en el quirófano)
+   o las enfermedades o defectos padecidos anteriormente que se agraven como consecuencia del accidente (por ejemplo,
+   un esguince que tuviese de una lesión anterior del trabajador).
+
+-> Para saber qué se considera un accidente de trabajo es conveniente tener en cuenta las siguientes reglas:
+
++  Se presumirá que contribuyen como accidente de trabajo todas las lesiones que sufra el trabajador en el centro de
+   trabajo en el horario laboral, salvo si se prueba lo contrario. También se considera como accidente de trabajo el
+   salir del centro para realizar tareas laborales en el horario de trabajo.
+
++  Podrá ser considerado como accidente de trabajo la imprudencia profesional que cometa el trabajador como consecuencia
+   del ejercicio habitual y la confianza que éste inspira. Por ejemplo. un descuido no intencional.
+
++  No se conideran como accidentes de trabajo los que sean debidos a una fuerza mayor extraña al trabajo (como la insolación,
+   los rayos y otros fenómenos parecidos de la naturaleza) y los que sean debidos a la imprudencia temeraria intencional del
+   trabajador.
+
+c) El accidente de trabajo desde la prevención =
+
+-> Desde el punto de vista legal, para que exista un accidente de trabajo debe de existir una lesión en el trabajador. ¿Pero
+   qué ocurre si, en una situación de riesgo, no llega a haber una lesión sobre el trabajador?
+
+-> Según la Seguridad Social, para que se considere un accidente laboral o se pueda dar de baja, es necesario que existan
+   lesiones, pero si no las hay no se considerará un accidente.
+
+-> Pero, desde un punto de vista preventivo, podría haber ocurrido algo, por lo que es necesario ampliar el concepto legal de
+   accidente de trabajo a otro donde queden recogidas esas situaciones donde no ha pasado nada, pero podría haber pasado algo.
+
+-> En primer lugar, cabe distinguir si se han producido daños materiales y/o lesiones en las personas. Si los combinamos, nos
+   darán 4 tipos de accidente de trabajo:
+
++  El accidente típico: Es aquel donde hay lesiones para las personas y los daños materiales.
+
++  El accidente caso: Es un accidente donde hay lesiones para las personas, pero no se producen daños materiales.
+
++  El accidente blanco: Es un accidente donde no hay lesiones en las personas, pero sí se producen daños materiales.
+
++  El incidente: Es aquella situación donde no se producen ni lesiones ni daños materiales, pero existe una situación de riesgo
+   que podría haberlas provocado, aunque todavía no se haya dado el caso.
+
+d) Las causas técnicas y humanas en los accidentes =
+
+-> La teoría de la causalidad de los accidentes señala que todo accidente ocurre por alguna causa y que dicha causa se podría
+   haber evitado y, por lo tanto, también el accidente. Los accidentes no se deben al azar o a motivos de superstición. Entre
+   estas causas se distinguen:
+
++  Las causas técnicas: Influyen las características de las instalaciones y lugares de trabajo, la protección de los equipos,
+   máquinas y herramientas, el medio ambiente y la organización y los sistemas de trabajo.
+
++  Las causas humanas: Influyen el hecho de que el trabajador desconozca la existencia de un riesgo, que el trabajador no sepa
+   actuar frente a él, que el trabajador decida no querer actuar de forma preventiva y que exista la falta de formación e
+   infromación por parte de la empresa.
+
+----------------------------------------------------------------------------------------------------
+
+3.2º.) La enfermedad profesional =
+
+-> En España, para saber qué se considera una enfermedad profesional, se ha venido utilizando el sistema de lista cerrada, el cual
+   consiste en que, para evitar dudas de interpretación sobre si la enfermedad es causada o no por el trabajo, se elabora una
+   lista de enfermedades, de sectores de trabajo y de productos donde se puedan contraer de manera que, si un trabajador desarrolla
+   una enfermedad de dicho listado trabajando en una de esas actividades, automáticamente se da por hecho que es debida al trabajo
+   y se califica de forma inmediata como una enfermedad profesional. En definitiva, para que sea una enfermedad profesional, ésta
+   debe de estar en la lista que elabora el Ministerio de Trabajo.
+
+-> La clasificación de dichas enfermedades se organiza en enfermedades causadas por agentes químicos, por agentes físicos, por
+   agentes biológicos, por la inhalación de sustancias y agentes desconocidos, en la piel por sustancias o agentes desconocidos
+   y por agentes cancerígenos.
+
+a) Las diferencias de la enfermedad profesional con el accidente de trabajo =
+
+-> La enfermedad profesional es lenta, pues sus efectos suelen aparecer al cabo de los años y aumentan cuanto más tiempo se expone
+   dicha enfermedad. Suele aparecer de forma lenta debido a las condiciones medioambientales y sus efectos son individuales.
+
+-> El accidente de trabajo es súbito, pues se ven las lesiones de forma inmediata. Está más relacionado con las condiciones de
+   seguridad en el trabajo y los efectos del accidente son idénticos para todos los que lo sufren.
+
+b) El registro de las enfermedades profesionales =
+
+-> Hasta 2006, el responsable de cumplimentar el parte de las enfermedades profesionales era el empresario, mientras que ahora es la
+   Mutua la que notifica y registra estas enfermedades. El hecho que fuera el empresario el que notificase y registrase las enfermedades,
+   unido al largo periodo de latencia en que apareciesen los efectos de alguna de ellas, había provocado un "subregistro" de enfermedades
+   profesionales; es decir, que se declaraban muchas menos de las que realmente se producían.
+
+----------------------------------------------------------------------------------------------------
+
+3.3º.) La fatiga laboral =
+
+-> La fatiga laboral es la disminución de la capacidad física y mental para realizar el trabajo debido al cansancio. La fatiga puede
+   ser producida por dos causas: por una carga física en el trabajo (como los esfuerzos, las posturas incómodas, etc) o por una carga
+   mental (como manejar mucha información, tomar decisiones en poco tiempo, etc).
+
+----------------------------------------------------------------------------------------------------
+
+3.4º.) La insatisfacción laboral =
+
+-> La insatisfacción laboral es una actitud general negativa hacia el trabajo que procede de la diferencia entre las expectativas
+   generadas respecto al trabajo y la realidad de lo que es el trabajo, además de la importancia que se le da a esa diferencia.
+
+-> Por ello, se quiere decir que la existencia de insatisfacción no solo se debe a cómo es el trabajo de "bueno" o "malo", sino
+   también a las expectativas que el trabajador tiene generadas sobre él y a cuánta importancia le da a que éstas se cumplan o no.
+
+----------------------------------------------------------------------------------------------------
+
+3.5º.) El envejecimiento prematuro =
+
+-> Está demostrado que ciertos operarios, en algunos trabajos, sufren un desgaste mayor debido a la acumulación de fatiga crónica, lo
+   cual les provoca una aceleración del envejecimiento normal. Por ello, algunos colectivos, como los trabajadores de minería, tienen una
+   edad de jubilación más temprana.
+
+====================================================================================================
+
+4º.) Las medidas de prevención y protección de riesgos laborales =
+
+-> Las medidas de prevención actúan antes de que se produzca el accidente de manera que intentan eliminar o reducir las causas en su
+   raíz, interviniendo sobre el foco del riesgo y evitando así que se produzca el accidente u otro daño.
+
+-> Las medidas de protección son aquellas que no evitan el riesgo o el peligro, sino que se encargan de reducir o eliminar sus consecuencias
+   sobre el trabajador. hay situaciones en las que las medidas de prevención no pueden evitar el accidente, por lo que se asume la
+   presencia de un determinado grado de riego y se intenta reducir dicho daño. Existen dos tipos de medidas de protección: las colectivas,
+   que protegen a varios trabajadores a la vez al actuar sobre el medio de transmisión (como, por ejemplo, un extractor de humos); y
+   las individuales o equipos de protección individual (como, por ejemplo, las mascarillas o los guantes de protección), que solo protegen
+   a un trabajador directamente.
+
+-> La normativa utiliza como principio fundamental el de la prevención, por lo que, en primer lugar, hay que evitar los riesgos en su
+   origen y evaluar aquellos que no puedan evitarse para, posteriormente y como segunda medida, utilizar técnicas de protección colectiva
+   y, si no resultase posible o fueran insuficientes, en último lugar se emplearía técnicas de protección individual.
+
+a) Las técnicas de prevención =
+
+-> Los tipos de técnicas de prevención son los siguientes:
+
++  La seguridad trata de evitar los accidentes de trabajo, para lo cual recoge información sobre los accidentes ocurridos y sus estadísticas
+   para localizar los focos de riesgo. Posteriormente, actúa sobre las condiciones de seguridad más problemáticas, como las instalaciones,
+   los lugares de trabajo, los equipos y la maquinaria, para evitar los riesgos en su origen.
+
++  La higiene industrial previene las enfermedades profesionales por la presencia de contaminantes físicos, químicos y biológicos. Para
+   ello, se encarga de recoger muestras de los contaminantes, valorar si superan el máximo umbral permitido para considerarlos no tóxicos
+   y, de ser así, corregir la situación.
+
++  La ergonomía trata de evitar la fatiga en el trabajo adaptando el trabajo al trabajador. Para ello, se consigue a través del diseño de
+   herramientas y la maquinaria para que no produzcan fatiga y con el diseño de los puestos de trabajo en cuanto a tiempos, espacios, etc.
+   para que el trabajo sea lo más cómodo posible y, al mismo tiempo, aumente la productividad.
+
++  La psicosociología es una técnica de lucha contra la insatisfacción laboral. Para ello, utiliza medidas de organización del trabajo y
+   diseño de puestos para que la motivación laboral y la satisfacción laboral sean posibles.
+
++  La medicina del trabajo concentra las técnicas médicas que tratan de prevenir la pérdida de salud, actuando también en la curación y
+   la rehabilitación de la enfermedad o el accidente. Entre sus funciones se encuentran la vacunación y los reconocimientos médicos periódicos,
+   principalmente si también actúan ayudando en la curación y la rehabilitación tras el accidente.
+
+b) Las técnicas de protección colectiva =
+
+-> Las técnicas de protección colectiva protegen a varios trabajadores de los posibles daños al estar en contacto con riesgos laborales.
+   Dichas técnicas no evitan los riesgos, sino que conviven con ellos pero, en caso de que se materialicen, intentan reducir o evitar los
+   daños en los trabajadores. Algunas de las técnicas de protección colectiva más usuales son las barandillas y redes de seguridad, los
+   resguardos de la maquinaria, los dispositivos de seguridad (como una célula fotoeléctrica o un doble mando), la ventilación general y
+   las pantallas.
+
+c) Los equipos de protección individual o "EPIs" =
+
+-> Los equipos de protección individual son la última medida en la prevención de riesgos laborales, ya que, previamente, se tienen que tomar
+   las medidas de prevención y las medidas de protección colectiva.
+
+-> Se define como un equipo de protección individual a cualquier equipo destinado a ser llevado o sujetado por el trabajador para que le
+   proteja de uno o varios riesgos que puedan amenazar su seguridad o salud, así como cualquier complemento o accesorio destinado a tal fin.
+
+-> No se consideran como "EPIs" la ropa de trabajo corriente y los uniformes que no estén específicamente destinados a proteger la salud del
+   trabajador, los equipos de los servicios de socorro y salvamento, los equipos de protección individual de los militares, policías o guardias
+   civiles, los equipos de protección individual de los medios de transporte por carretera, el material de deporte, el material de autodefensa
+   o de disuasión y los aparatos portátiles para la detección y señalización de riesgos.
+
+-> Existen múltiples "EPIs" para las distintas partes del cuerpo, siendo los más usuales los cascos, los gorros, gorras o sombreros, los tapones,
+   las orejeras, las gafas de montura, la pantalla facial, la pantalla para soldadura, la mascarilla filtrante de partículas, la mascarilla filtrante
+   de gases y vapores, los guantes contra las agresiones mecánicas, los guantes contra las agresiones químicas, los guantes contra agresiones eléctricas
+   y térmicas, las manoplas y manguitos, el calzado de seguridad, el calzado de protección contra el calor o el frío, el calzado contra la electricidad,
+   los chalecos, chaquetas y mandiles de protección contra las agresiones mecánicas o químicas, los chalecos termógenos y los chalecos salvavidas, los
+   mandiles de protección contra los rayos X, las fajas y los cinturones antivibraciones, los arneses, la ropa de protección y las "EPIs" contra las
+   caídas de altura.

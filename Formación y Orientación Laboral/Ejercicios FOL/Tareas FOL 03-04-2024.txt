@@ -1,0 +1,49 @@
+--->>> EJERCICIOS DEL TEMA 10 DE "FOL" <<<---
+
+================================================================================================================
+
+---------------------------------------------------Página 195---------------------------------------------------
+
+1º.) Contesta a las siguientes cuestiones basándote en el enunciado el libro =
+
+1º.a) ¿Puede entregarle la empresa esos EPis? ¿Por qué?
+
+-> La empresa no puede entregar dichos EPIs a Carmen por dos motivos muy evidentes: El primero viene a ser que el
+   equipo que se le entrega, pues ya perteneció a otra persona (cosa que no sería demasiado recomendable hacer por
+   el hecho de que es innecesario y estúpido hacer eso cuando pueden entregarle un casco y unos guantes nuevos a
+   la trabajadora) que, además, le queda grande y, por lo tanto, no le protege bien de los accidentes de trabajo
+   que ocurran en el camino; y el segundo viene a ser que, al ser un produsto "Made in China", prácticamente no
+   posee ningún tipo de control ni de certificado oficial que apruebe su empleo en un trabajo, sobretodo porque
+   esa clase de productos suelen ser de mala calidad y porque debería llevar el certificado CE para que fuese
+   legítimo su uso.
+
+1º.b) ¿Debería Carmen comprarse los EPIs?
+
+-> Debería, pues dichos EPIs no son seguros para que los pueda utilizar en el trabajo, además de que la empresa ha
+   hecho una insensatez al darle a Carmen dichos EPIs en esas condiciones. Además, en una tienda especializada esos
+   EPIs son muchísimo más útiles que los que le ofrecieron a la trabajadora.
+
+1º.c) Si el riesgo de su puesto es muy grave, ¿qué debe de indicar en la etiqueta?
+
+-> Al ser un riesgo muy grave, en la etiqueta debería de disponer, además del certificado CE, de un código de 4
+   dígitos que muestre el control realizado por una entidad certificadora.
+
+2º.) Contesta a las siguientes cuestiones basándote en el enunciado el libro =
+
+2º.a) ¿Cómo se llama el documento básico sobre prevención que debe de integrarse dentro de la organización?
+
+-> Ese tipo de documento se llama "plan de prevención de riesgos".
+
+2º.b) ¿En qué casos hay que evaluar los riesgos laborales?
+
+-> Los riesgos laborales deben evaluarse al inicio del trabajo y, posteriormente, otras evaluaciones periódicas
+   cada vez que se produzcan cambios en las condiciones de trabajo o cuando aparezcan daños o indicios de que
+   las medidas que se toman no son suficientes para afrontar el accidente.
+
+2º.c) ¿Cuántas evaluaciones de riesgos hay que realizar?
+
+-> Debe de relizarse una evaluzación de riesgos por cada puesto de trabajo existente en la empresa.
+
+2º.d) Le comentan que debe de evaluar cada zona de trabajo. ¿Eso es correcto? ¿Por qué?
+
+-> 

@@ -1,0 +1,129 @@
+package Apuesta;
+
+public class Apuesta {
+
+    private int dinero_disp;
+    private int goles_local;
+    private int goles_visitante;
+    private int apostado;
+
+    /*Contructor por defecto*/
+    public Apuesta() {
+    }
+
+    /*Contructor por parámetros*/
+    public Apuesta(int dinero_disp, int goles_local, int goles_visitante) {
+        this.dinero_disp = dinero_disp;
+        this.goles_local = goles_local;
+        this.goles_visitante = goles_visitante;
+        this.apostado = 0;
+    }
+    /*Método para obtener el valor del atributo dinero_disp*/
+
+    public int getDinero_disp() {
+        return dinero_disp;
+    }
+    /*Método para modificar el valor del atributo dinero_disp*/
+
+    public void setDinero_disp(int dinero_disp) {
+        this.dinero_disp = dinero_disp;
+    }
+
+    /*Método para apostar.
+     * Permite elegir la cantidad a apostar, no pudiendo ser inferior a 1 ni superior a tu saldo disponible
+     * Este método será probado con JUnit
+     */
+    public void apostar(int dinero) throws Exception {
+        if (dinero <= 0) {
+            throw new Exception("No se puede apostar menos de 1€");
+        }
+
+        if (dinero > dinero_disp) {
+            throw new Exception("No se puede apostar mas de lo que tienes");
+        }
+        {
+            dinero_disp = dinero - dinero_disp;
+            apostado = dinero;
+        }
+    }
+    /*Método que comprueba si se ha acertado el resultado del partido
+     * En caso de que lo haya acertado devuelve true. Chequea que no se metan menos de 0 goles
+     * 
+     */
+
+    public boolean comprobar_resultado(int local, int visitante) throws Exception {
+        boolean acertado = false;
+        if ((local < 0) || (visitante) < 0) {
+            throw new Exception("Un equipo no puede meter menos de 0 goles, por malo que sea");
+        }
+
+        if (goles_local == local && goles_visitante == visitante) {
+            acertado = true;
+        }
+        return acertado;
+    }
+    /* Método para cobrar la apuesta.
+     * Comprueba que se acertó el resultado y, en ese caso, añade el valor apostado multiplicado por 10
+     * al saldo disponible
+     * Este método se va a probar con Junit
+     */
+
+    void cobrar_apuesta(int cantidad_goles_local, int cantidad_goles_visit) throws Exception {
+
+        if (comprobar_resultado(cantidad_goles_local, cantidad_goles_visit) == false) {
+            throw new Exception("No se puede cobrar una apuesta no acertada");
+        }
+        dinero_disp = dinero_disp * 10;
+
+    }
+}
+
+package Apuesta;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Apuesta miApuesta;
+        int mi_dinero;
+
+        miApuesta = new Apuesta(1000, 4, 2);
+        try {
+            System.out.println("Apostando...");
+            miApuesta.apostar(25);
+        } catch (Exception e) {
+            System.out.println("Fallo al realizar la Apuesta");
+        }
+
+        try {
+            System.out.println("Intento cobrar apuesta segun el resultado del partido");
+            miApuesta.cobrar_apuesta(2, 3);
+        } catch (Exception e) {
+            System.out.println("Fallo al cobrar la apuesta");
+        }
+        mi_dinero = miApuesta.getDinero_disp();
+        System.out.println("El dinero que tengo tras las apuestas es " + mi_dinero);
+    }
+}
+
+======================================================================================
+
+En esta tarea aprenderás a usar una herramienta (JUnit) para la realización de pruebas de software, así como diseñar casos de prueba y depurar un programa.
+
+En el proyecto Java que se adjunta (en el apartado Recursos necesarios), hay definida una clase de nombre Apuesta
+
+Esta clase dispone de varios métodos, entre ellos apostar y cobrar_apuesta.
+
+Se pretende que partiendo de una clase con dos métodos ya diseñados, se utilicen herramientas de depuración para corregir errores en el código. A continuación, se deberán diseñar casos de prueba, para verificar el comportamiento de los métodos apostar y cobrar_apuesta.
+
+A continuación se indica en qué consiste la tarea y lo que debes aportar en un documento de texto para su justificación (el proyecto Netbeans con las modificaciones realizadas también deberá ser entregado):
+
+Realiza una ejecución paso a paso, que verifique el correcto funcionamiento de la aplicación. Indica los valores que marca la inspección de variables tras ejecutar las instrucciones:
+
+    miApuesta.apostar(50) en la función main.
+    miApuesta.cobrar_apuesta(3,4) en la función main.
+
+  Haz 2 capturas de pantalla en las que se visualicen el valor de las variables después de la llamada a cada función. Es decir, una en la que se visualice el valor de la variable dinero_disp (en el inspector de variables) después de pasar por el método apostar y otra captura de igual modo tras pasar por cobrar_apuesta.
+
+    Diseña los casos de prueba que permitan verificar el método apostar para valores válidos y no válidos. Para ello debes diseñar los casos de pruebas que permitan comprobar si introduciendo valores válidos el método funciona correctamente y si introduciendo valores no válidos, como sería hacer una apuesta de menos de 1€ o de más dinero del dinero disponible. Debes copiar en el documento de texto el código de los 3 casos de prueba.
+    Diseña los casos de prueba que permitan verificar el método cobrar_apuesta tanto para valores válidos como no válidos. Para ello debes diseñar los casos de pruebas que permitan comprobar si introduciendo valores válidos el método funciona correctamente y si introduciendo valores no válidos, como sería introducir un resultado con elementos negativos (un equipo mete menos de 0 goles), se obtiene la salida esperada. Debes copiar en el documento de texto el código de los casos de prueba.
+    Ejecuta las pruebas y comenta el resultado. Haz una captura de pantalla del resultado obtenido y argumenta lo que significa la salida obtenida en la ejecución de las pruebas (es decir, lo que significa la salida y a qué se debe).
