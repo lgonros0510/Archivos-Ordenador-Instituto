@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <fo:layout-master-set>
+        <fo:simple-page-master master-name="pagina" page-height="9cm" page-width="20cm" margin="1cm"/>
+    </fo:layout-master-set>
+    <fo:page-sequence master-reference="pagina">
+        <fo:flow flow-name="xsl-region-body">
+            <fo:block font-size="18pt" text-align="center" font-weight="bold" margin-top="2cm">
+                Invitación a nuestra boda
+            </fo:block>
+            <fo:block font-size="14pt" text-align="center" margin-top="0.5cm">
+                <fo:inline font-weight="bold">Nombre de los novios:</fo:inline> Juan Pérez y María Gómez
+            </fo:block>
+            <fo:block font-size="12pt" text-align="justify" margin="0.5cm">
+                Estamos muy emocionados de invitarlos a celebrar nuestro día especial.
+                Esperamos que se unan a nosotros en este momento lleno de amor y alegría.
+            </fo:block>
+            <fo:block font-size="12pt" text-align="justify" margin="0.5cm">
+                <fo:inline font-weight="bold">Fecha y hora:</fo:inline> 15 de junio de 2024, a las 18:00
+            </fo:block>
+            <fo:block font-size="12pt" text-align="justify" margin="0.5cm">
+                <fo:inline font-weight="bold">Lugar:</fo:inline> Finca Los Robles, Calle de las Flores, Ciudad, País
+            </fo:block>
+            <fo:block font-size="12pt" text-align="justify" margin="0.5cm">
+                <fo:inline font-weight="bold">Teléfono para confirmar asistencia:</fo:inline> +123456789
+            </fo:block>
+        </fo:flow>
+    </fo:page-sequence>
+</fo:root>

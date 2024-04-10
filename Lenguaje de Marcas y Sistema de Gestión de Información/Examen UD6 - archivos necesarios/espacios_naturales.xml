@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<espacios_protegidos>
+    <espacio_protegido>
+        <nombre>Sierra Nevada</nombre>
+        <tipo>Parque Natural</tipo>
+        <superficie>171.414 hectáreas</superficie>
+        <provincias>
+            <provincia>Almería</provincia>
+            <provincia>Granada</provincia>
+        </provincias>
+        <descripcion>
+            El Parque Natural de Sierra Nevada es el más grande de España y uno de los más grandes de Europa. Con una altitud máxima de 3.482 metros en el pico Mulhacén, es un lugar de gran belleza paisajística y biodiversidad.
+        </descripcion>
+        <actividades>
+            <actividad>Senderismo</actividad>
+            <actividad>Esquí</actividad>
+            <actividad>Observación de aves</actividad>
+            <actividad>Escalada</actividad>
+        </actividades>
+    </espacio_protegido>
+    <espacio_protegido>
+        <nombre>Doñana</nombre>
+        <tipo>Parque Nacional</tipo>
+        <superficie>53.709 hectáreas</superficie>
+        <provincias>
+            <provincia>Cádiz</provincia>
+            <provincia>Huelva</provincia>
+            <provincia>Sevilla</provincia>
+        </provincias>
+        <descripcion>
+            Doñana es un espacio natural único en Europa, con una gran variedad de ecosistemas que incluyen dunas, marismas, y bosques. Es refugio para muchas especies de aves y mamíferos, incluyendo el lince ibérico.
+        </descripcion>
+        <actividades>
+            <actividad>Rutas en 4x4</actividad>
+            <actividad>Paseos en barco por el río Guadalquivir</actividad>
+            <actividad>Observación de aves</actividad>
+            <actividad>Paseos a caballo</actividad>
+        </actividades>
+    </espacio_protegido>
+    <espacio_protegido>
+        <nombre>Las Sierras de Cazorla, Segura y Las Villas</nombre>
+        <tipo>Parque Natural</tipo>
+        <superficie>214.336 hectáreas</superficie>
+        <provincias>
+            <provincia>Jaén</provincia>
+        </provincias>
+        <descripcion>
+            Este parque natural es uno de los más extensos y variados de España, con montañas, valles, ríos y cascadas. Es hogar de una rica diversidad de flora y fauna, incluyendo especies emblemáticas como el águila real y el ciervo.
+        </descripcion>
+        <actividades>
+            <actividad>Senderismo</actividad>
+            <actividad>Observación de aves</actividad>
+            <actividad>Recorridos en bicicleta de montaña</actividad>
+            <actividad>Pesca deportiva en ríos y embalses</actividad>
+        </actividades>
+    </espacio_protegido>
+    <espacio_protegido>
+        <nombre>El Cabo de Gata-Níjar</nombre>
+        <tipo>Parque Natural</tipo>
+        <superficie>38.000 hectáreas</superficie>
+        <provincias>
+            <provincia>Almería</provincia>
+        </provincias>
+        <descripcion>
+            Situado en la costa mediterránea, este parque natural es conocido por su espectacular paisaje de acantilados, playas vírgenes y aguas cristalinas. Alberga una gran diversidad de flora y fauna adaptada a condiciones de aridez.
+        </descripcion>
+        <actividades>
+            <actividad>Snorkel y buceo</actividad>
+            <actividad>Senderismo por la costa y el interior</actividad>
+            <actividad>Visitas a pueblos pesqueros tradicionales</actividad>
+            <actividad>Observación de estrellas en noches despejadas</actividad>
+        </actividades>
+    </espacio_protegido>
+    <espacio_protegido>
+        <nombre>La Sierra de las Nieves</nombre>
+        <tipo>Parque Natural</tipo>
+        <superficie>20.163 hectáreas</superficie>
+        <provincias>
+            <provincia>Málaga</provincia>
+        </provincias>
+        <descripcion>
+            La Sierra de las Nieves es conocida por su relieve montañoso y su gran diversidad de flora, destacando especialmente los bosques de pinsapos, un abeto autóctono de la región. Es un refugio para especies endémicas y ofrece numerosas rutas de senderismo y vistas panorámicas impresionantes.
+        </descripcion>
+        <actividades>
+            <actividad>Senderismo</actividad>
+            <actividad>Observación de aves</actividad>
+            <actividad>Visitas a los pueblos blancos de la zona</actividad>
+            <actividad>Excursiones guiadas para conocer la flora y fauna local</actividad>
+        </actividades>
+    </espacio_protegido>
+</espacios_protegidos>
+

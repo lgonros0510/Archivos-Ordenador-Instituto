@@ -1,0 +1,42 @@
+--->>> EXAMEN PRÁCTICO TEMA 5 LMSGI (XPATH) <<<---
+
+======================================================================================================================================================
+
+1º.) Crea una sentencia xPath que muestre los datos de los pedidos de aquellos que sean enviados a países que no sean España =
+     
+-> //pedido/direccion_envio/pais[. != "España"]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2º.) Crea una sentencia xPath que muestre los datos de los pedidos que tienen el mismo destino que facturación (el código postal
+     de la dirección de facturación es igual que el código postal de la dirección de envío) =
+     
+-> //pedido/direccion_facturacion/codigo_postal[. = "17890"]  <-- No me sé la solución directa...
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3º.) Crea una sentencia xQuery que muestre los nombres de los productos con su precio ordenados por nombre del producto =
+
+-> <table> {
+    for $a in doc("/home/alumno/examen_UD5.xml")//pedido/detalles_empaquetado/producto
+      order by $a/nombre
+      return <tr><td>{$a/nombre/text()}</td>
+      <td>{$a/precio_unitario/text()}</td></tr>
+   }
+   </table>
+   
+------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+4º.) Crea una sentencia xQuery que muestre sólo el id del pedido cuyo nombre del
+comprador/a sea diferente al nombre del pagador (el titular de la tarjeta de pago) =
+
+-> <table> {
+    for $a in doc("/home/alumno/examen_UD5.xml")//pedido
+      where $a/cliente/nombre != $a/datos_pago/nombre_titular
+      return $a/@id
+   }
+   </table>
+   
+======================================================================================================================================================
+
+--->>> Examen realizado por Lucía González Rosas || 1º. de DAW || 13 de marzo del 2024 <<<---

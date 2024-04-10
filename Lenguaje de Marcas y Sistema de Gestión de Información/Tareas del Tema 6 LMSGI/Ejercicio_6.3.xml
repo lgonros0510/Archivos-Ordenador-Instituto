@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum>
+    <nombre> Lucía González Rosas </nombre>
+    <contacto>
+        <telefono> 684-127-296 </telefono>
+        <email> gonzalezrosaslucia@gmail.com </email>
+    </contacto>
+    <formacion>
+        <titulo> Bachillerato </titulo>
+        <centro> IES Capellanía </centro>
+        <anio_finalizacion> 2023 </anio_finalizacion>
+    </formacion>
+    <experiencia>
+        <puesto> ---- </puesto>
+        <empresa> ---- </empresa>
+        <anio_inicio> ---- </anio_inicio>
+        <anio_finalizacion> ---- </anio_finalizacion>
+    </experiencia>
+    <experiencia>
+        <puesto> ---- </puesto>
+        <empresa> ---- </empresa>
+        <anio_inicio> ---- </anio_inicio>
+        <anio_finalizacion> ---- </anio_finalizacion>
+    </experiencia>
+</curriculum>

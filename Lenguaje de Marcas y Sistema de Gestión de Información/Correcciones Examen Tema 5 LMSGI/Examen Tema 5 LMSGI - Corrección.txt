@@ -1,0 +1,65 @@
+--->>> EXAMEN PRÁCTICO TEMA 5 LMSGI (XPATH) <<<---
+
+======================================================================================================================================================
+
+1º.) Crea una sentencia xPath que muestre los datos de los pedidos de aquellos que sean enviados a países que no sean España =
+     
+-> //pedido/direccion_envio/pais[. != "España"]
+
+-> En este ejercicio debería mostrarse los datos de los pedidos, no solamente los países. La corrección sería la siguiente:
+
++  //pedido[direccion_envio/pais != "España"]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2º.) Crea una sentencia xPath que muestre los datos de los pedidos que tienen el mismo destino que facturación (el código postal
+     de la dirección de facturación es igual que el código postal de la dirección de envío) =
+     
+-> //pedido/direccion_facturacion/codigo_postal[. = "17890"]  <-- No me sé la solución directa...
+
+-> En este ejercicio no se hace nada de lo que se pide. La corrección sería la siguiente:
+
++  //pedido[direccion_facturacion/codigo_postal = direccion_envio/codigo_postal]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3º.) Crea una sentencia xQuery que muestre los nombres de los productos con su precio ordenados por nombre del producto =
+
+-> <table> {
+    for $a in doc("/home/alumno/examen_UD5.xml")//pedido/detalles_empaquetado/producto
+      order by $a/nombre
+      return <tr><td>{$a/nombre/text()}</td>
+      <td>{$a/precio_unitario/text()}</td></tr>
+   }
+   </table>
+
+-> En este ejercicio me obsesioné con el uso de HTML y no me ayudó demasiado, además de que el "return" no está nada correcto. La
+   corrección sería la siguiente:
+
++  for $producto in //producto
+   let $nombre := $producto/nombre
+   let $precio := $producto/precio_unitario
+   order by $nombre
+   return concat($nombre, ": ", $precio)
+   
+------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+4º.) Crea una sentencia xQuery que muestre sólo el id del pedido cuyo nombre del
+comprador/a sea diferente al nombre del pagador (el titular de la tarjeta de pago) =
+
+-> <table> {
+    for $a in doc("/home/alumno/examen_UD5.xml")//pedido
+      where $a/cliente/nombre != $a/datos_pago/nombre_titular
+      return $a/@id
+   }
+   </table>
+
+-> En este ejercicio mejoro un poco más, pero sigo con el HTML, que está incorrecto. La corrección sería la siguiente:
+
++  for $pedido in //pedido
+   where $pedido/cliente/nombre != $pedido/datos_pago/nombre_titular
+   return $pedido/@id
+   
+======================================================================================================================================================
+
+--->>> Examen realizado por Lucía González Rosas || 1º. de DAW || 13 de marzo del 2024 <<<---

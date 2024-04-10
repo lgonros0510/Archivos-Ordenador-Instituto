@@ -1,0 +1,200 @@
+------------------> Chuletario para el examen del Tema 4 de LMSGI <------------------
+
+========================================================================================================
+
+-> La declaración de un documento XML se realiza de esta manera:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+=========================================================================================================
+
+-> Un documento XML está compuesto de elementos, los cuales deben de cumplir ciertas reglas de asignación
+   para nombrarse: 
+   
++  Se diferencian entre las mayúsculas y las minúsculas.
++  Deben de comenzar por una letra o un guión bajo. 
++  Los nombres de los elementos tienen que ser idénticos en tanto en las etiquetas de apertura como en las 
+   de cierre.
++  Los nombres pueden estar formados por caracteres alfanuméricos, guiones, guiones bajos y puntos.
++  Los nombres no pueden contener espacios.
+
+-> Un ejemplo de sintaxis de un documento XML es el siguiente:
+
+<nombre_elemento nombre_atributo_1="valor1" nombre_atributo_2="valor2"> Elemento </nombre_elemento>
+
+=========================================================================================================
+
+-> Las relaciones entre los distintos elementos se pueden formar de la siguiente manera:
+
++  Primero se crea el elemento raíz, el cual es el que funciona como núcleo del resto de elementos.
++  Luego, prosiguen los elementos "padre", los cuales proceden como elementos ascendientes directos
+   de un elemento.
++  Después prosiguen los elementos "hijo", los cuales descienden directamente de un elemento "padre".
++  Por último, están los elementos "hermano", los cuales poseen un elemento "padre" en común.
+
+-> Por ejemplo, en un documento XMl sobre animales en peligro de extinción, "<animales>" sería el
+   elemento raíz, "<animal>" serían los elementos "hijo" de "<animales>", "<animales>" sería el
+   elemento "padre" de "<animal>", los elementos "<animal>" serían elementos "hermano" entre sí y
+   los elementos "<nombre>" y "<nombrecientifico>" serían elementos "hijo" del elemento "<animal>".
+
+=========================================================================================================
+
+-> Los comentarios se introducen en un documento XML de la siguiente manera:
+
+<!-- Este texto es un comentario -->
+
+=========================================================================================================
+
+-> Existe una declaración que sirve para resolver las ambigüedades entre los elementos o atributos
+   con el mismo nombre, el cual se llama "espacio de nombre" o "namespace":
+
+xmlns:nombre-espacio-nombres=URL
+
+-> Aquí va un ejemplo de su aplicación a un documento XML:
+
+xmlns:autorestecnicos:autor='http://unaurlcualquiera';
+xmlns:autoresliterarios:autor='http://otraurlcualquiera';
+
+=========================================================================================================
+
+-> Existen entidades que se utilizan para incluir en un documento XML símbolos que no suelen aceptar
+   de forma normal, tales como los siguientes:
+
++  &lt = Símbolo de "menor que" o (<).
++  &gt = Símbolo de "mayor que" o (>).
++  &amp = Símbolo del "ampersand" (&).
++  &apos = Comillas simples (').
++  &quot = Comillas dobles (").
+
+=========================================================================================================
+
+-> En un documento XML, una sección CDATA contiene un conjunto de caracteres que no debe ser tratado
+   por el analizador, donde se suele almacenar código XML o HTML que, de otra forma, impediría que el
+   documento XML contenedor no estuviese bien formado.
+
+-> Las secciones CDATA se suelen escribir de la siguiente manera:
+
+<!{CDATA[----------------]}>
+
+=========================================================================================================
+
+-> Para que un documento XML esté bien formado, debe de cumplir con las siguientes reglas:
+
++  Debe haber uno y sólo un elemento raíz.
++  Todos los elementos deben de estar cerrados.
++  Los elementos tienen que estar anidados correctamente; no se pueden intercalar aperturas y cierres
+   de distintos elementos.
++  Todos los valores de los atrobutos deben de estar entrecomillados con comillas dobles.
++  Los nombres de los elementos y los atributos han de cumplir con sus respectivas reglas.
+
+=========================================================================================================
+
+-> Un DTD contiene una serie de reglas que sirven para validar un documento XML. Las reglas contenidas
+   en un DTD tiene que ver con la estructura del documento y los elementos y atributos que puede contener.
+   Es un mecanismo que puede asociar a un documento XML de dos maneras:
+
++  De forma interna: En un DTD interno, las reglas se definen dentro del propio documento XML. Un ejemplo de
+   de ello es el siguiente:
+
+<'xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aviso [
+   <!ELEMENT aviso (de,para,mensaje)>
+   <!ELEMENT de (#PCDATA) >
+   <!ELEMENT para (#PCDATA) >
+   <!ELEMENT mensaje (#PCDATA) >
+]>
+<aviso>
+   <de>David</de>
+   <para>Rosalía</para>
+   <mensaje>mañana nos vemos en el estudio a las 10.</mensaje>
+</aviso> 
+
++  De forma externa: En un DTD externo, se facilita la reutilización y permite compartir las reglas de validación,
+   añadiendo una referencia al fichero que contiene el DTD de este último. Un ejemplo de su utilización es el siguiente:
+
+>> documento.xml <<
+
+<?xml version="1.0" encoding="UTF-8"?>
+>!DOCTYPE aviso SYSTEM "dtdExterno.dtd">
+<aviso>
+   <de>David</de>
+   <para>Rosalía</para>
+   <mensaje>mañana nos vemos en el estudio a las 10.</mensaje>
+</aviso>
+
+>> dtdExterno.dtd <<
+
+   <!ELEMENT aviso (de,para,mensaje)>
+   <!ELEMENT de (#PCDATA) >
+   <!ELEMENT para (#PCDATA) >
+   <!ELEMENT mensaje (#PCDATA) >
+
+-> También se puede hacer uso, dentro de los DTD, de entidades (permite sustituir información repetida dentro de un
+   documento XML), de anotaciones (identifican el formato de entidades que no pertenecen a la sintaxis de un documento
+   XML) y/o de elementos (indica en qué condiciones debe encontrarse un elemento en un documento XML):
+
++  Entidad DTD: <!ENTITY entidad [PUBLIC/SYSTEM] "texto de reemplazo" ["URI"/"URL"]> || &entidad
++  Anotación DTD: <!NOTATION nombre [PUBLIC/SYSTEM] "texto de reemplazo" ["URI"/"URL"]> || &nombre
++  Elemento DTD: <!ELEMENT elemento [(#PCDATA)]contenido> || &elemento
+
+=========================================================================================================
+
+-> XML Schema es el lenguaje utilizado para describir la estructura, las relaciones y las restricciones de los documentos
+   XML. Permite conseguir un mayor nivel de precisión en el establecimiento de las reglas de validación, consiguiendo un
+   nivel de detalle que no es posible alcanzar con los DTD. Un ejemplo del uso de XML Schema en un documento XML es el
+   siguiente:
+
+>> documento.xml <<
+
+<?xml version="1.0" encoding="UTF-8"?>
+<mensaje
+   xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+   xs:noNamespacechemaLocation="mensaje.xsd">
+   <de>Anna</de>
+   <para>Rocío</para>
+   <mensaje>ya estoy en la biblioteca</mensaje>
+</mensaje>
+
+>> documento.xsd <<
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="mensaje">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="de" type="xs:string"/>
+            <xs:element name="para" type="xs:string"/>
+            <xs:element name="mensaje" type="xs:string"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
+
+=========================================================================================================
+
+-> Facetas de XML Schema:
+
++  xs.length = Determina una longitud fija.
++  xs:minLength = Establece una longitud mínima.
++  xs:maxLength = Fija una longitud máxima.
++  xs:totalDigits = Determina el máximo número de dígitos que puede tener un número.
++  xs:fractionDigits = Establece el máximo número de decimales que puede tener un número.
++  xs:minExclusive = Determina que el valor debe ser mayor que el valor indicado.
++  xs:maxExclusive = Establece que el valor debe ser menor que el valor indicado.
++  xs:minIxclusive = Establece que el valor debe ser menor o igual que el valor indicado.
++  xs:maxIxclusive = Establece que el valor debe ser mayor o igual que el valor indicado.
++  xs:maxExclusive = Establece que el valor debe ser menor que el valor indicado.
++  xs:enumeration = Establece una lista de valores posibles.
++  xs:whiteSpace = Determina cómo tratar los espacion en blanco, las tabulaciones y los
+   saltos de línea.
++  xs:pattern = Fija un patrón de caracteres permitidos.
+
+-> Tipos de datos en XML Schema:
+
++  xs.string = Cadenas de caracteres.
++  xs:integer = Números enteros.
++  xs:decimal = Números decimales.
++  xs:boolean = Tipo de dato lógico, el cual admite los valores "true" y "false".
++  xs:date = Fechas en formato "AAAA-MM-DD".
++  xs:time = Horas en formato "hh:mm:ss".
++  xs:duration = Un periodo de tiempo en formato "PnYnMnDTnHnMnS".

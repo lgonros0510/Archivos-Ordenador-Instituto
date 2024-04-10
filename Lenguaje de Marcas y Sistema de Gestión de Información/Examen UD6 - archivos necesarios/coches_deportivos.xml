@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coches>
+    <coche>
+        <marca nombre="Ferrari" pais="Italia">
+            <modelo>LaFerrari</modelo>
+            <salida>2013</salida>
+            <precio>1500000</precio>
+            <ventas>200</ventas>
+        </marca>
+    </coche>
+    <coche>
+        <marca nombre="Lamborghini" pais="Italia">
+            <modelo>Aventador</modelo>
+            <salida>2011</salida>
+            <precio>400000</precio>
+            <ventas>300</ventas>
+        </marca>
+    </coche>
+    <coche>
+        <marca nombre="Bugatti" pais="Francia">
+            <modelo>Veyron</modelo>
+            <salida>2005</salida>
+            <precio>2000000</precio>
+            <ventas>50</ventas>
+        </marca>
+    </coche>
+    <coche>
+        <marca nombre="Porsche" pais="Alemania">
+            <modelo>911 Turbo S</modelo>
+            <salida>2016</salida>
+            <precio>200000</precio>
+            <ventas>300</ventas>
+        </marca>
+    </coche>
+    <coche>
+        <marca nombre="Mercedes-Benz" pais="Alemania">
+            <modelo>AMG GT</modelo>
+            <salida>2014</salida>
+            <precio>150000</precio>
+            <ventas>200</ventas>
+        </marca>
+    </coche>
+    <coche>
+        <marca nombre="BMW" pais="Alemania">
+            <modelo>M8</modelo>
+            <salida>2019</salida>
+            <precio>200000</precio>
+            <ventas>120</ventas>
+        </marca>
+    </coche>
+    <coche>
+        <marca nombre="Rolls-Royce" pais="Reino Unido">
+            <modelo>Phantom</modelo>
+            <salida>2003</salida>
+            <precio>500000</precio>
+            <ventas>100</ventas>
+        </marca>
+    </coche>
+    <coche>
+        <marca nombre="Bentley" pais="Reino Unido">
+            <modelo>Continental GT</modelo>
+            <salida>2003</salida>
+            <precio>250000</precio>
+            <ventas>150</ventas>
+        </marca>
+    </coche>
+    <coche>
+        <marca nombre="Aston Martin" pais="Reino Unido">
+            <modelo>DB11</modelo>
+            <salida>2016</salida>
+            <precio>250000</precio>
+            <ventas>80</ventas>
+        </marca>
+    </coche>
+    <coche>
+        <marca nombre="McLaren" pais="Reino Unido">
+            <modelo>P1</modelo>
+            <salida>2013</salida>
+            <precio>1500000</precio>
+            <ventas>150</ventas>
+        </marca>
+    </coche>
+    <coche>
+        <marca nombre="Lexus" pais="Japón">
+            <modelo>LFA</modelo>
+            <salida>2010</salida>
+            <precio>400000</precio>
+            <ventas>50</ventas>
+        </marca>
+    </coche>
+    <coche>
+        <marca nombre="Acura" pais="Japón">
+            <modelo>NSX</modelo>
+            <salida>2016</salida>
+            <precio>200000</precio>
+            <ventas>100</ventas>
+        </marca>
+    </coche>
+</coches>
+
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehiculo>
+<marca> Ferrari </marca>
+<web> https://ferrari.com/ </web>
+<modelo> F8 Spider </modelo>
+<precio> 262000 <precio>
+</vehiculo>

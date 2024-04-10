@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos [
+<!ELEMENT productos (producto, precio, fecha, proveedor)>
+<!ELEMENT producto (categoria+)>
+<!ATTLIST producto categoria (Componentes | Periféricos | Portátiles) "Periféricos">
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT proveedor (CIF, telefono)>
+<!ELEMENT CIF (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+]>
+
+<productos>
+  <producto categoria="Periféricos">
+    <nombre>Teclado</nombre>
+    <precio>10.5</precio>
+    <fecha>2020-02-10</fecha>
+    <proveedor>
+      <CIF>Z24681357</CIF>
+    </proveedor>
+  </producto>
+
+  <producto categoria="Componentes">
+    <nombre>M2 256GB</nombre>
+    <precio>99.9</precio>
+    <fecha>2020-02-10</fecha>
+    <proveedor>
+      <telefono>123456789</telefono>
+    </proveedor>
+  </producto>
+</productos>

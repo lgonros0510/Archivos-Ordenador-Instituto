@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <xsl:output method="xml" indent="yes"/>
+    <xsl:template match="/">
+        <fo:layout-master-set>
+            <fo:simple-page-master master-name="tarjeta_personal" page-heigth="5cm" page-width="8.4cm" margin="0.2cm">
+            </fo:simple-page-master>
+            <fo:region-body margin-top="1cm"/>
+            <fo:region-start extent="2cm"/>
+            <fo:region-end extent="1cm"/>
+        </fo:layout-master-set>
+        <fo:flow flow-name="xsl-region-body">
+            <fo:block font-size="10pt" font-family="sans-serif" space-after.optimum="15pt" background-color="#0000FF"
+            color="white" text-align="center" margin-left="2cm" margin-right="2cm">
+                Lucía González Rosas
+            </fo:block>
+        </fo:flow>
+
+        <fo:flow flow-name="xsl-region-start">
+            <fo:block font-size="8pt" font-family="sans-serif" space-after.optimum="15pt" background-color="white"
+            color="#0000FF" text-align="left" padding-left="2cm">
+                DAW
+            </fo:block>
+        </fo:flow>
+
+        <fo:flow flow-name="xsl-region-end">
+            <fo:block font-size="7pt" font-family="sans-serif" space-after.optimum="15pt" background-color="lightgreen"
+            color="darkgreen" text-align="right" padding-right="1cm">
+                MySQL, Java, XML, XSLT, XSL-FO, etc.
+            </fo:block>
+        </fo:flow>
+    </xsl:template>
+</xsl:stylesheet>
