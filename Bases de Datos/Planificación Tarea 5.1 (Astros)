@@ -1,0 +1,75 @@
+Define una jerarquía de clases que permita almacenar datos sobre los planetas y satélites (lunas)
+que forman parte del sistema solar.
+
+Algunos atributos que necesitaremos almacenar son:
+
+• Masa del cuerpo.
+• Diámetro medio.
+• Período de rotación sobre su propio eje.
+• Período de traslación alrededor del cuerpo que orbitan.
+• Distancia media a ese cuerpo.
+• etc.
+
+Define las clases necesarias conteniendo:
+
+• Constructores.
+• Métodos para recuperar y almacenas atributos.
+• Método para mostrar la información del objeto.
+
+Define un método, que dado un objeto del sistema solar (planeta o satélite), imprima toda la
+información que se dispone sobre el mismo (además de su lista de satélites si los tuviera).
+
+El diagrama UML sería:
+
+· Clase abstracta "Astros" =
+
+-> Posee de atributos heredables "radioEcuatorial", "rotacionEje", "masa", "temperaturaMedia" y "gravedad".
+-> Posee de funciones heredables "mostrar()".
+
+->> Posee de clases heredadas:
+
+---------------------------------------------------------------------------------------------------
+
+· Clase heredada "Planetas" =
+
+-> Posee de atributos propios "distanciaSol", "orbitaSol" y "haySatelites" (es un booleano).
+-> Posee de atributos heredados "mostrar()".
+
+· Clase heredada "Satélites" =
+
+-> Posee de atributos propios "distanciaPlaneta", "orbitaPlanetaria" y "planetaPerteneciente".
+-> Posee de atributos heredados "mostrar()".
+
+---------------------------------------------------------------------------------------------------
+
+-- Tabla Astros
+CREATE TABLE Astros (
+    astro_id INT AUTO_INCREMENT PRIMARY KEY,
+    masa FLOAT,
+    diametro_medio FLOAT,
+    periodo_rotacion FLOAT,
+    temperatura_media FLOAT,
+    gravedad FLOAT
+);
+
+-- Tabla Planetas
+CREATE TABLE Planetas (
+    planeta_id INT AUTO_INCREMENT PRIMARY KEY,
+    astro_id INT,
+    distancia_sol FLOAT,
+    orbita_sol FLOAT,
+    hay_satelites BOOLEAN,
+    FOREIGN KEY (astro_id) REFERENCES Astros(astro_id)
+);
+
+-- Tabla Satelites
+CREATE TABLE Satelites (
+    satelite_id INT AUTO_INCREMENT PRIMARY KEY,
+    planeta_id INT,
+    astro_id INT,
+    distancia_planeta FLOAT,
+    orbita_planetaria FLOAT,
+    planeta_perteneciente VARCHAR(100),
+    FOREIGN KEY (planeta_id) REFERENCES Planetas(planeta_id),
+    FOREIGN KEY (astro_id) REFERENCES Astros(astro_id)
+);
